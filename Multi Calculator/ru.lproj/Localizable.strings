@@ -26,4 +26,151 @@
 "navigation_menu_app_page" = "Страница приложения";
 "navigation_menu_common_settings" = "Общие настройки";
 
+"menu_about_help" = "Помощь";
+"menu_about_share" = "Поделиться";
+"menu_about_rate" = "Оценить приложение";
+"menu_about_thanks" = "Благодарности";
+"menu_about_intro" = "Обзор приложения";
+"menu_about_calculator_pro" = "Калькулятор PRO";
 
+"menu_history_clear_history" = "Очистить историю";
+
+"dialog_connection" = "Проверьте интернет подключение и повторите попытку";
+"dialog_message_delete_history" = "Внимание! Вся история будет удалена";
+"dialog_this_functionality" = "Данная функция находится в стадии разработки. Приносим свои извинения за доставленные неудобства!";
+
+"result_of_calculations" = "Результат расчетов";
+"result_empty" = "Поле результат не заполнено";
+
+"history" = "История";
+"toast_device_not_supported" = "Устройство не поддерживается";
+"toast_press_again_to_exit" = "Нажмите еще раз, чтобы выйти";
+"toast_ads_disabled" = "PRO режим активирован";
+
+"dialog_pro_description" = "Доступ ко всем функциям приложения";
+"dialog_pro_ok" = "Попробовать";
+"dialog_pro_cancel" = "Позже";
+
+//<!--InAppPurchaseActivity-->
+"title_sub" = "Удобная работа. Без рекламы.";
+"title_discount" = "Получите скидку %1$s%%";
+"radio_1" = "Навсегда";
+"radio_2" = "Годовая подписка";
+"radio_3" = "Месячная подписка";
+"btn_further" = "Далее";
+"radio_4" = "%1$s мин";
+"radio_4_sub" = "Просмотр ролика до конца";
+
+"title_thanks" = "Спасибо за установку нашего БЕСПЛАТНОГО приложения!";
+"title_thanks_sub" = "Поддержка этого приложения осуществляется за счет рекламы, которую можно отключить, обновив версию до Калькулятор PRO.";
+"btn_disable_ads" = "Отключить рекламу";
+"btn_continue_with_ads" = "Продолжить с рекламой";
+"toast_show_video_not_available" = "Просмотр видео недоступен в данный момент. Попробуйте позже.";
+
+"comparison_functions" = "Сравнение функций";
+"without_ads" = "Без рекламы";
+"more_work_space" = "Больше рабочего места";
+"work_without_internet" = "Работа без интернета";
+
+//<!--WelcomeActivity-->
+"slide_1_desc" = "Простой и интуитивно понятный инструмент для повседневных расчетов";
+"slide_2_desc" = "Простой и легкий расчет НДС";
+"slide_3_desc" = "Быстро узнать, сколько дней осталось до важной даты";
+"slide_4_desc" = "Расчет процентов еще не был таким легким";
+"slide_5_desc" = "Расчет ежемесячного платежа и переплаты по кредиту";
+
+//<!--SettingsCommon-->
+"settings_general" = "Общие";
+"vibration_response" = "Виброотклик";
+"nav_menu_opened" = "Открывать меню навигации";
+"nav_menu_opened_summary" = "Автоматически открывает меню при открытии приложения";
+"menu_settings" = "Калькуляторы";
+"theme" = "Тема";
+"theme_auto" = "Авто";
+"theme_dark" = "Темная";
+"theme_light" = "Светлая";
+//<string-array name="app_theme_entries">
+//<item>@string/theme_auto</item>
+//<item>@string/theme_dark</item>
+//<item>@string/theme_light</item>
+//</string-array>
+//<string-array name="app_theme_entry_values">
+//<item>0</item>
+//<item>1</item>
+//<item>2</item>
+//</string-array>
+"exit" = "Выход";
+"double_click" = "Двойной клик";
+
+//<!--CalcSimple-->
+"animation" = "Анимация";
+"decimal_format" = "Десятичный формат";
+"action_highlighting" = "Выделение действий";
+"toast_input_error" = "Ошибка ввода";
+"toast_arithmetic_error" = "Арифметическая ошибка";
+"number_symbols_after_comma" = "Количество знаков после запятой";
+"scale_operation" = "Размер основного поля";
+"scale_result" = "Размер вспомогательного поля";
+"show_memory_buttons" = "Кнопки памяти";
+
+//<!--CalcVat-->
+"amount" = "Сумма";
+"rate_of_vat" = "Ставка";
+"add_vat" = "Начислить НДС";
+"exclude_vat" = "Выделить НДС";
+"sum_vat" = "Сумма НДС";
+"sum_with_vat" = "Сумма c НДС";
+"sum_without_vat" = "Сумма без НДС";
+
+//<!--CalcDate-->
+"years" = "Годы";
+"months" = "Mесяцы";
+"weeks" = "Недели";
+"days" = "Дни";
+"hours" = "Часы";
+"minutes" = "Минуты";
+"seconds" = "Секунды";
+"total" = "Итого";
+
+//<!--CalcPercent-->
+"how_much_is" = "Сколько составляет &#37; от числа";
+"what_percent_of_the_number_of" = "Сколько &#37; составляет число от числа";
+"add" = "Прибавить &#37; к числу";
+"subtract" = "Вычесть &#37; из числа";
+"percent" = "Процент";
+"number" = "Число";
+"format_result_percent" = "%1$s%% от числа %2$s = %3$s";
+"format_result_number" = "Число %1$s от числа %2$s = %3$s%%";
+"format_result_add" = "Прибавить %1$s%% к числу %2$s = %3$s";
+"format_result_subtract" = "Вычесть %1$s%% из числа %2$s = %3$s";
+
+//<!--CalcLoan-->
+"calc_loan_schedule_title" = "График платежей";
+"calc_loan_annuity" = "Аннуитетный";
+"calc_loan_differentiated" = "Дифференцированный";
+"calc_loan_monthly_payment" = "Ежемесячный платеж";
+"calc_loan_overpayment" = "Переплата";
+"calc_loan_total_sum" = "Полная сумма";
+"calc_loan_main_payment" = "Основной платеж";
+"calc_loan_sum" = "Сумма кредита:";
+"calc_loan_term" = "Срок кредита:";
+"calc_loan_rate" = "Процентная ставка:";
+"hint_calc_loan_term" = "мес.";
+
+//<!-- About (ТОЛЬКО EN И RU) -->
+//<string name="about_text">Благодарим за использование приложения Калькулятор! Если у Вас есть предложения или возникли вопросы, пожалуйста, напишите нам по адресу  <a href="mailto:xdpilab@gmail.com">xdpilab@gmail.com</a>. \n \nС уважением, команда <b>XDPI Lab</b></string>
+"version" = "Версия";
+
+//<!--Thanks-->
+"app_developed" = "Калькулятор для Android разработан с использованием следующих программ с открытым исходным кодом";
+
+//<!-- RateApp -->
+"dialog_rate_app_title" = "Нравится приложение?";
+"dialog_rate_app_message" = "Нажми \"Да\" и поставь оценку в Google Play! Или \"Нет\", и напиши что случилось.";
+"dialog_rate_app_ok" = "Да";
+"dialog_rate_app_cancel" = "Ответить позже";
+"dialog_rate_app_no" = "Нет";
+
+"stopwatch" = "Секундомер";
+"contact_lenses" = "Контактные линзы";
+"curious_bunny" = "Любопытный Кролик";
