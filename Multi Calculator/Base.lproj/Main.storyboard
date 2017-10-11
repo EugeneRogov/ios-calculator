@@ -33,6 +33,54 @@
                                             <segue destination="GLZ-cD-vdL" kind="show" id="mTM-1z-QaX"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iv2-OX-Qo0">
+                                        <rect key="frame" x="8" y="46" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOX-BL-SxU">
+                                        <rect key="frame" x="46" y="46" width="206" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="VAT calculator"/>
+                                        <connections>
+                                            <segue destination="CDi-M9-4ci" kind="show" id="8X3-kb-5Jm"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WvW-f7-EFV">
+                                        <rect key="frame" x="8" y="84" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLf-2K-kHm">
+                                        <rect key="frame" x="46" y="84" width="206" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Date calculator"/>
+                                        <connections>
+                                            <segue destination="rcF-5a-BHL" kind="show" id="5x0-qs-rAH"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ho-w6-iap">
+                                        <rect key="frame" x="8" y="122" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BE-ZN-KNv">
+                                        <rect key="frame" x="46" y="122" width="206" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Percent calculator"/>
+                                        <connections>
+                                            <segue destination="JQ1-d9-qnP" kind="show" id="mfd-vC-HiK"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HIE-dl-g4J">
+                                        <rect key="frame" x="8" y="160" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSd-zG-M9Y">
+                                        <rect key="frame" x="46" y="160" width="206" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Loan calculator"/>
+                                        <connections>
+                                            <segue destination="4ur-k3-gsV" kind="show" id="ntI-Lp-0Df"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -44,12 +92,46 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" id="UUG-1c-3dY"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="btnNavCalcDate" destination="XLf-2K-kHm" id="mV9-8j-Nky"/>
+                        <outlet property="btnNavCalcLoan" destination="cSd-zG-M9Y" id="tg8-2Q-B1I"/>
+                        <outlet property="btnNavCalcPercent" destination="9BE-ZN-KNv" id="pzD-Wh-cfP"/>
                         <outlet property="btnNavCalcSimple" destination="Tf1-xn-Zu2" id="q66-I6-uNj"/>
+                        <outlet property="btnNavCalcVat" destination="IOX-BL-SxU" id="dyM-nV-oRm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="479.19999999999999" y="109.29535232383809"/>
+        </scene>
+        <!--Percent calculator-->
+        <scene sceneID="sUe-sz-2DJ">
+            <objects>
+                <viewController title="Percent calculator" id="JQ1-d9-qnP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lMS-Nl-R5K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="WYV-Rv-4mU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wA2-mF-Kaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1262" y="491"/>
+        </scene>
+        <!--Loan calculator-->
+        <scene sceneID="hWV-xO-ngs">
+            <objects>
+                <viewController title="Loan calculator" id="4ur-k3-gsV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FYp-Ee-VRv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="eCU-cS-yY0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZ4-ik-qIW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1964" y="491"/>
         </scene>
         <!--Simple calculator-->
         <scene sceneID="1JQ-ac-trN">
@@ -65,6 +147,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jN4-sh-ffO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1262" y="-197"/>
+        </scene>
+        <!--VAT calculator-->
+        <scene sceneID="PRb-MH-YPQ">
+            <objects>
+                <viewController title="VAT calculator" id="CDi-M9-4ci" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gwe-qx-a4A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="o4W-Eu-TMV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tY2-dK-jWW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1964" y="-197"/>
+        </scene>
+        <!--Date calculator-->
+        <scene sceneID="dXi-Gn-wVy">
+            <objects>
+                <viewController title="Date calculator" id="rcF-5a-BHL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rdj-aH-Q8u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="8PQ-hc-1de"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2vW-C0-Ol0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2665" y="-197"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iLb-DZ-zkN">
