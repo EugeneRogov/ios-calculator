@@ -106,7 +106,7 @@
         <!--Percent calculator-->
         <scene sceneID="sUe-sz-2DJ">
             <objects>
-                <viewController title="Percent calculator" id="JQ1-d9-qnP" sceneMemberID="viewController">
+                <viewController title="Percent calculator" id="JQ1-d9-qnP" customClass="CalcPercent" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lMS-Nl-R5K">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,7 +121,7 @@
         <!--Loan calculator-->
         <scene sceneID="hWV-xO-ngs">
             <objects>
-                <viewController title="Loan calculator" id="4ur-k3-gsV" sceneMemberID="viewController">
+                <viewController title="Loan calculator" id="4ur-k3-gsV" customClass="CalcLoan" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FYp-Ee-VRv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,7 +136,7 @@
         <!--Simple calculator-->
         <scene sceneID="1JQ-ac-trN">
             <objects>
-                <viewController title="Simple calculator" id="GLZ-cD-vdL" sceneMemberID="viewController">
+                <viewController title="Simple calculator" id="GLZ-cD-vdL" customClass="CalcSimple" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Ec-Ho-nAb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,7 +151,7 @@
         <!--VAT calculator-->
         <scene sceneID="PRb-MH-YPQ">
             <objects>
-                <viewController title="VAT calculator" id="CDi-M9-4ci" sceneMemberID="viewController">
+                <viewController title="VAT calculator" id="CDi-M9-4ci" customClass="CalcVat" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gwe-qx-a4A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,7 +166,7 @@
         <!--Date calculator-->
         <scene sceneID="dXi-Gn-wVy">
             <objects>
-                <viewController title="Date calculator" id="rcF-5a-BHL" sceneMemberID="viewController">
+                <viewController title="Date calculator" id="rcF-5a-BHL" customClass="CalcDate" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rdj-aH-Q8u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

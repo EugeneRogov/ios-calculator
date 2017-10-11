@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         btnNavCalcDate.setTitle(NSLocalizedString("navigation_menu_date", comment: ""), for: UIControlState.normal)
         btnNavCalcPercent.setTitle(NSLocalizedString("navigation_menu_percent", comment: ""), for: UIControlState.normal)
         btnNavCalcLoan.setTitle(NSLocalizedString("navigation_menu_loan", comment: ""), for: UIControlState.normal)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,6 +33,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
