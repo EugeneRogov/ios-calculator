@@ -25,3 +25,152 @@
 "navigation_menu_no_advertising" = "Update";
 "navigation_menu_app_page" = "Application page";
 "navigation_menu_common_settings" = "Common Settings";
+
+"menu_about_help" = "Help";
+"menu_about_share" = "Share";
+"menu_about_rate" = "Rate app";
+"menu_about_thanks" = "Thanks";
+"menu_about_intro" = "Application overview";
+"menu_about_calculator_pro" = "Calculator PRO";
+
+"menu_history_clear_history" = "Clear history";
+
+"dialog_connection" = "Check your internet connection and try again";
+"dialog_message_delete_history" = "Attention! All history will be deleted";
+"dialog_this_functionality" = "This function is under development. We apologize for the inconvenience!";
+
+"result_of_calculations" = "Result of calculations";
+"result_empty" = "Result is empty";
+
+"history" = "History";
+"toast_device_not_supported" = "Device not supported";
+"toast_press_again_to_exit" = "Press again to exit";
+"toast_ads_disabled" = "PRO mode is activated";
+
+"dialog_pro_description" = "Access to all application features";
+"dialog_pro_ok" = "Try";
+"dialog_pro_cancel" = "Later";
+
+//<!--InAppPurchaseActivity-->
+"title_sub" = "Easily work. Without advertising.";
+"title_discount" = "Get discounts %1$s%%";
+"radio_1" = "Forever";
+"radio_2" = "Annual subscription";
+"radio_3" = "Monthly subscription";
+"btn_further" = "Further";
+"radio_4" = "%1$s minutes";
+"radio_4_sub" = "Viewing video to the end";
+
+"title_thanks" = "Thank you for installing our FREE app!";
+"title_thanks_sub" = "Development of this application is done through advertising, which can be turned off, upgrade to PRO Calculator.";
+"btn_disable_ads" = "Disable ads";
+"btn_continue_with_ads" = "Continue with ads";
+"toast_show_video_not_available" = "View the video is not available at the moment. Try later.";
+
+"comparison_functions" = "Comparison of functions";
+"without_ads" = "No advertising";
+"more_work_space" = "More work space";
+"work_without_internet" = "Work without internet";
+
+//<!--WelcomeActivity-->
+"slide_1_desc" = "Easy and intuitive tool for everyday calculations";
+"slide_2_desc" = "Simple and easy calculation of VAT";
+"slide_3_desc" = "Quickly see how many days are left before the important date";
+"slide_4_desc" = "Calculation of percent it\'s easy";
+"slide_5_desc" = "Calculation of monthly payment and overpayment for a loan";
+
+//<!--SettingsCommon-->
+"settings_general" = "General";
+"vibration_response" = "Vibration response";
+"nav_menu_opened" = "Open navigation menu";
+"nav_menu_opened_summary" = "Automatically opens the menu when you open app";
+"menu_settings" = "Calculators";
+"theme" = "Theme";
+"theme_auto" = "Auto";
+"theme_dark" = "Dark";
+"theme_light" = "Light";
+//<string-array name="app_theme_entries">
+//<item>@string/theme_auto</item>
+//<item>@string/theme_dark</item>
+//<item>@string/theme_light</item>
+//</string-array>
+//<string-array name="app_theme_entry_values">
+//<item>0</item>
+//<item>1</item>
+//<item>2</item>
+//</string-array>
+"exit" = "Exit";
+"double_click" = "Double click";
+
+//<!--CalcSimple-->
+"animation" = "Animation";
+"decimal_format" = "Decimal format";
+"action_highlighting" = "Action highlighting";
+"toast_input_error" = "Input error";
+"toast_arithmetic_error" = "Arithmetic error";
+"number_symbols_after_comma" = "Number of symbols after comma";
+"scale_operation" = "Size of main field";
+"scale_result" = "Size of additional field";
+"show_memory_buttons" = "Memory buttons";
+
+//<!--CalcVat-->
+"amount" = "Amount";
+"rate_of_vat" = "Rate Of VAT";
+"add_vat" = "Add VAT";
+"exclude_vat" = "Exclude VAT";
+"sum_vat" = "Sum VAT";
+"sum_with_vat" = "Sum with VAT";
+"sum_without_vat" = "Sum without VAT";
+
+//<!--CalcDate-->
+"years" = "Years";
+"months" = "Months";
+"weeks" = "Weeks";
+"days" = "Days";
+"hours" = "Hours";
+"minutes" = "Minutes";
+"seconds" = "Seconds";
+"total" = "Total";
+
+//<!--CalcPercent-->
+"how_much_is" = "How much is &#37; of number";
+"what_percent_of_the_number_of" = "What number &#37; of the number";
+"add" = "Add &#37; to number";
+"subtract" = "Subtract &#37; from number";
+"percent" = "Percent";
+"number" = "Number";
+"format_result_percent" = "%1$s%% from number %2$s = %3$s";
+"format_result_number" = "Number %1$s from number %2$s = %3$s%%";
+"format_result_add" = "Add %1$s%% to number %2$s = %3$s";
+"format_result_subtract" = "Subtract %1$s%% from number %2$s = %3$s";
+
+//<!--CalcLoan-->
+"calc_loan_schedule_title" = "Payment schedule";
+"calc_loan_annuity" = "Annuity";
+"calc_loan_differentiated" = "Differentiated";
+"calc_loan_monthly_payment" = "Monthly payment";
+"calc_loan_overpayment" = "Overpayment";
+"calc_loan_total_sum" = "Total sum";
+"calc_loan_main_payment" = "Main payment";
+"calc_loan_sum" = "Sum";
+"calc_loan_rate" = "Rate";
+"calc_loan_term" = "Term";
+"hint_calc_loan_term" = "month";
+
+//<!-- About (ТОЛЬКО EN И RU) -->
+//<string name="about_text">Thank you for using app Calculator! If you have got any questions or suggestions how to improve our app, please email us at  <a href="mailto:xdpilab@gmail.com">xdpilab@gmail.com</a>. \n \nBest regards, Team of <b>XDPI Lab</b></string>
+"version" = "Version";
+
+//<!--Thanks-->
+"app_developed" = "Calculator for Android was developed with open source software using the following programs";
+
+//<!-- RateApp -->
+"dialog_rate_app_title" = "Like this app?";
+"dialog_rate_app_message" = "Tap \"Yes\" and rate in Google Play or \"No\" and give us your feedback.";
+"dialog_rate_app_ok" = "Yes";
+"dialog_rate_app_cancel" = "Later";
+"dialog_rate_app_no" = "No";
+
+"stopwatch" = "Stopwatch";
+"contact_lenses" = "Contact Lenses";
+"curious_bunny" = "Curious Bunny";
