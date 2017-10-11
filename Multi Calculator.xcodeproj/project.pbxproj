@@ -14,6 +14,7 @@
 		44AEE02A1F8E248D003D4832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AEE0281F8E248D003D4832 /* LaunchScreen.storyboard */; };
 		44AEE0351F8E248D003D4832 /* Multi_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE0341F8E248D003D4832 /* Multi_CalculatorTests.swift */; };
 		44AEE0401F8E248D003D4832 /* Multi_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE03F1F8E248D003D4832 /* Multi_CalculatorUITests.swift */; };
+		44AEE0531F8E2568003D4832 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44AEE0551F8E2568003D4832 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,11 @@
 		44AEE03B1F8E248D003D4832 /* Multi CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AEE03F1F8E248D003D4832 /* Multi_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_CalculatorUITests.swift; sourceTree = "<group>"; };
 		44AEE0411F8E248D003D4832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AEE04D1F8E24BE003D4832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		44AEE04E1F8E24BE003D4832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		44AEE0521F8E253F003D4832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		44AEE0541F8E2568003D4832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		44AEE0561F8E256D003D4832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 				44AEE0261F8E248D003D4832 /* Assets.xcassets */,
 				44AEE0281F8E248D003D4832 /* LaunchScreen.storyboard */,
 				44AEE02B1F8E248D003D4832 /* Info.plist */,
+				44AEE0551F8E2568003D4832 /* Localizable.strings */,
 			);
 			path = "Multi Calculator";
 			sourceTree = "<group>";
@@ -233,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44AEE02A1F8E248D003D4832 /* LaunchScreen.storyboard in Resources */,
+				44AEE0531F8E2568003D4832 /* Localizable.strings in Resources */,
 				44AEE0271F8E248D003D4832 /* Assets.xcassets in Resources */,
 				44AEE0251F8E248D003D4832 /* Main.storyboard in Resources */,
 			);
@@ -300,6 +308,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				44AEE0241F8E248D003D4832 /* Base */,
+				44AEE04D1F8E24BE003D4832 /* ru */,
+				44AEE0521F8E253F003D4832 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,8 +318,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				44AEE0291F8E248D003D4832 /* Base */,
+				44AEE04E1F8E24BE003D4832 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		44AEE0551F8E2568003D4832 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44AEE0541F8E2568003D4832 /* ru */,
+				44AEE0561F8E256D003D4832 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -319,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -432,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "xdpi.ru.Multi-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -446,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "xdpi.ru.Multi-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

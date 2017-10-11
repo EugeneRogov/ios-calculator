@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  Multi Calculator
+
+  Created by Евгений Рогов on 11.10.17.
+  Copyright © 2017 XDPI Lab. All rights reserved.
+*/
+
+"app_name" = "Calculator";
+"cancel" = "Cancel";
+
+"navigation_menu_simple" = "Simple calculator";
+"navigation_menu_scientific" = "Scientific calculator";
+"navigation_menu_vat" = "VAT calculator";
+"navigation_menu_date" = "Date calculator";
+"navigation_menu_percent" = "Percent calculator";
+"navigation_menu_loan" = "Loan calculator";
+"navigation_menu_settings" = "Settings";
+"navigation_menu_our_apps" = "Our Apps";
+"navigation_menu_about" = "About";
+"navigation_menu_send_result" = "Send result";
+"navigation_menu_help" = "Help";
+"navigation_menu_history" = "History";
+"navigation_menu_update_app" = "Update";
+"navigation_menu_no_advertising" = "Update";
+"navigation_menu_app_page" = "Application page";
+"navigation_menu_common_settings" = "Common Settings";

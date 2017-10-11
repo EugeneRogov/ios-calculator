@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  Multi Calculator
+
+  Created by Евгений Рогов on 11.10.17.
+  Copyright © 2017 XDPI Lab. All rights reserved.
+*/
+
+"app_name" = "Калькулятор";
+"cancel" = "Отмена";
+
+"navigation_menu_simple" = "Классический калькулятор";
+"navigation_menu_scientific" = "Инженерный калькулятор";
+"navigation_menu_vat" = "НДС калькулятор";
+"navigation_menu_date" = "Калькулятор дней";
+"navigation_menu_percent" = "Калькулятор процентов";
+"navigation_menu_loan" = "Кредитный калькулятор";
+"navigation_menu_settings" = "Настройки";
+"navigation_menu_our_apps" = "Наши приложения";
+"navigation_menu_about" = "О приложении";
+"navigation_menu_send_result" = "Отправить результат";
+"navigation_menu_help" = "Помощь";
+"navigation_menu_history" = "История";
+"navigation_menu_update_app" = "Обновить";
+"navigation_menu_no_advertising" = "Обновление";
+"navigation_menu_app_page" = "Страница приложения";
+"navigation_menu_common_settings" = "Общие настройки";
