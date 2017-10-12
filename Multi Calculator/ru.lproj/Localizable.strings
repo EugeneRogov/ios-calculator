@@ -147,8 +147,8 @@
 "calc_loan_total_sum" = "Полная сумма";
 "calc_loan_main_payment" = "Основной платеж";
 "calc_loan_sum" = "Сумма кредита:";
-"calc_loan_term" = "Срок кредита:";
 "calc_loan_rate" = "Процентная ставка:";
+"calc_loan_term" = "Срок кредита:";
 "hint_calc_loan_term" = "мес.";
 
 //<!-- About (ТОЛЬКО EN И RU) -->
