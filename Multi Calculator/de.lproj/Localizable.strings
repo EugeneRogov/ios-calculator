@@ -1,0 +1,170 @@
+
+
+"app_name" = "Taschenrechner";
+"cancel" = "Stornieren";
+
+"navigation_menu_simple" = "Einfacher Rechner";
+"navigation_menu_scientific" = "Wissenschaftlicher Taschenrechner";
+"navigation_menu_vat" = "Mehrwertsteuer-Rechner";
+"navigation_menu_date" = "Datumsrechner";
+"navigation_menu_percent" = "Prozentrechner";
+"navigation_menu_loan" = "Kreditrechner";
+"navigation_menu_settings" = "Einstellungen";
+"navigation_menu_our_apps" = "Unsere Apps";
+"navigation_menu_about" = "Über";
+"navigation_menu_send_result" = "Senden Ergebnis";
+"navigation_menu_help" = "Hilfe";
+"navigation_menu_history" = "Geschichte";
+"navigation_menu_update_app" = "Aktualisieren";
+"navigation_menu_no_advertising" = "Aktualisieren";
+"navigation_menu_app_page" = "Anwendungsseite";
+"navigation_menu_common_settings" = "Allgemeine Einstellungen";
+
+"menu_about_help" = "Hilfe";
+"menu_about_share" = "Aktie";
+"menu_about_rate" = "Diese App Bewerten";
+"menu_about_thanks" = "Vielen Dank";
+"menu_about_intro" = "Anwendungsübersicht";
+"menu_about_calculator_pro" = "Taschenrechner PRO";
+
+"menu_history_clear_history" = "Klare Geschichte";
+
+"dialog_connection" = "Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut";
+"dialog_message_delete_history" = "Aufmerksamkeit! Die ganze Geschichte wird gelöscht";
+"dialog_this_functionality" = "Diese Funktion ist in der Entwicklung. Wir entschuldigen uns für die Unannehmlichkeiten!";
+
+"result_of_calculations" = "Ergebnis der Berechnungen";
+"result_empty" = "Das Ergebnis ist leer";
+
+"history" = "Geschichte";
+"toast_device_not_supported" = "Gerät nicht unterstützt";
+"toast_press_again_to_exit" = "Zum Verlassen erneut drücken";
+"toast_ads_disabled" = "PRO-Modus ist aktiviert";
+
+"dialog_pro_description" = "Zugriff auf alle Anwendungsmerkmale";
+"dialog_pro_ok" = "Versuchen";
+"dialog_pro_cancel" = "Später";
+
+//<!--InAppPurchaseActivity-->
+"title_sub" = "Leicht zu arbeiten. Ohne Werbung.";
+"title_discount" = "Erhalten Sie Rabatte %1$s%%";
+"radio_1" = "Für immer";
+"radio_2" = "Jahresabonnement";
+"radio_3" = "Monatliches Abo";
+"btn_further" = "Des Weiteren";
+"radio_4" = "%1$s Minute";
+"radio_4_sub" = "Video ansehen bis zum Ende";
+
+"title_thanks" = "Vielen Dank für die Installation unserer KOSTENLOSEN App!";
+"title_thanks_sub" = "Die Entwicklung dieser Applikation erfolgt durch Werbung, die ausgeschaltet werden kann.";
+"btn_disable_ads" = "Anzeigen deaktivieren";
+"btn_continue_with_ads" = "Mit Anzeigen fortfahren";
+"toast_show_video_not_available" = "Das Video ist zur Zeit nicht verfügbar. Versuche es später.";
+
+"comparison_functions" = "Funktionsvergleich";
+"without_ads" = "Keine Werbung";
+"more_work_space" = "Mehr Arbeitsraum";
+"work_without_internet" = "Arbeit ohne Internet";
+
+//<!--WelcomeActivity-->
+"slide_1_desc" = "Einfache und intuitive Bedienung für alltägliche Berechnungen";
+"slide_2_desc" = "Einfache und einfache Berechnung der Mehrwertsteuer";
+"slide_3_desc" = "Schnell sehen, wie viele Tage vor dem wichtigen Datum gelassen werden";
+"slide_4_desc" = "Berechnung von Prozent ist einfach";
+"slide_5_desc" = "Berechnung der monatlichen Zahlung und Überzahlung für ein Darlehen";
+
+//<!--SettingsCommon-->
+"settings_general" = "General";
+"vibration_response" = "Haptisches Feedback";
+"nav_menu_opened" = "Öffnen Navigationsmenü";
+"nav_menu_opened_summary" = "Automatisch öffnet sich das Menü, wenn Sie App öffnen";
+"menu_settings" = "Taschenrechner";
+"theme" = "Thema";
+"theme_auto" = "Auto";
+"theme_dark" = "Dunkel";
+"theme_light" = "Licht";
+//<string-array name="app_theme_entries">
+//<item>@string/theme_auto</item>
+//<item>@string/theme_dark</item>
+//<item>@string/theme_light</item>
+//</string-array>
+//<string-array name="app_theme_entry_values">
+//<item>0</item>
+//<item>1</item>
+//<item>2</item>
+//</string-array>
+"exit" = "Ausgang";
+"double_click" = "Doppelklick";
+
+//<!--CalcSimple-->
+"animation" = "Animation";
+"decimal_format" = "Dezimalformat";
+"action_highlighting" = "Handlungshighlighting";
+"toast_input_error" = "Eingabefehler";
+"toast_arithmetic_error" = "Arithmetikfehler";
+"number_symbols_after_comma" = "Anzahl der Symbole hinter dem Komma";
+"scale_operation" = "Größe des Hauptfeldes";
+"scale_result" = "Größe des zusätzlichen Feldes";
+"show_memory_buttons" = "Speichertasten";
+
+//<!--CalcVat-->
+"amount" = "Menge";
+"rate_of_vat" = "Mehrwertsteuersatz";
+"add_vat" = "MwSt";
+"exclude_vat" = "Ohne Mehrwertsteuer";
+"sum_vat" = "Sum Mehrwertsteuer";
+"sum_with_vat" = "Sum mit Mehrwertsteuer";
+"sum_without_vat" = "Sum ohne Mehrwertsteuer";
+
+//<!--CalcDate-->
+"years" = "Jahre";
+"months" = "Monate";
+"weeks" = "Wochen";
+"days" = "Tage";
+"hours" = "Stunden";
+"minutes" = "Minuten";
+"seconds" = "Sekunden";
+"total" = "Gesamt";
+
+//<!--CalcPercent-->
+"how_much_is" = "How much is &#37; of number";
+"what_percent_of_the_number_of" = "What number &#37; of the number";
+"add" = "Add &#37; to number";
+"subtract" = "Subtract &#37; from number";
+"percent" = "Percent";
+"number" = "Number";
+"format_result_percent" = "%1$s%% from number %2$s = %3$s";
+"format_result_number" = "Number %1$s from number %2$s = %3$s%%";
+"format_result_add" = "Add %1$s%% to number %2$s = %3$s";
+"format_result_subtract" = "Subtract %1$s%% from number %2$s = %3$s";
+
+//<!--CalcLoan-->
+"calc_loan_schedule_title" = "Zahlungsplan";
+"calc_loan_annuity" = "Annuity";
+"calc_loan_differentiated" = "Differentiated";
+"calc_loan_monthly_payment" = "Monatliche Zahlung";
+"calc_loan_overpayment" = "Überzahlung";
+"calc_loan_total_sum" = "Gesamtsumme";
+"calc_loan_main_payment" = "Hauptzahlung";
+"calc_loan_sum" = "Summe";
+"calc_loan_rate" = "Zinssatz";
+"calc_loan_term" = "Kreditlaufzeit";
+"hint_calc_loan_term" = "Monat";
+
+//<!-- About (ТОЛЬКО EN И RU) -->
+//<string name="about_text">Благодарим за использование приложения Калькулятор! Если у Вас есть предложения или возникли вопросы, пожалуйста, напишите нам по адресу  <a href="mailto:xdpilab@gmail.com">xdpilab@gmail.com</a>. \n \nС уважением, команда <b>XDPI Lab</b></string>
+"version" = "Version";
+
+//<!--Thanks-->
+"app_developed" = "Calculator for Android was developed with open source software using the following programs";
+
+//<!-- RateApp -->
+"dialog_rate_app_title" = "Gefällt Ihnen die App?";
+"dialog_rate_app_message" = "Tippen Sie auf \"Ja\", um die App auf Google Play zu bewerten oder auf \"Nein\", um uns Feedback zu geben.";
+"dialog_rate_app_ok" = "Ja";
+"dialog_rate_app_cancel" = "Später";
+"dialog_rate_app_no" = "Nein";
+
+"stopwatch" = "Stoppuhr";
+"contact_lenses" = "Kontaktlinsen";
+"curious_bunny" = "Neugierige Kaninchen";
