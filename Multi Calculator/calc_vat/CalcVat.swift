@@ -29,8 +29,19 @@ class CalcVat: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        // init views
+        tvRateOfVat.text = NSLocalizedString("rate_of_vat", comment: "")
+        tvAmount.text = NSLocalizedString("amount", comment: "")
         
+        tvAddVat.text = NSLocalizedString("add_vat", comment: "")
+        tvAddSumVat.text = NSLocalizedString("sum_vat", comment: "")
+        tvAddSumWithVat.text = NSLocalizedString("sum_with_vat", comment: "")
         
+        tvExcludeVat.text = NSLocalizedString("exclude_vat", comment: "")
+        tvExcludeSumVat.text = NSLocalizedString("sum_vat", comment: "")
+        tvExcludeSumWithVat.text = NSLocalizedString("sum_without_vat", comment: "")
+    
     }
     
 }

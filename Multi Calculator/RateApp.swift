@@ -9,12 +9,14 @@
 import UIKit
 import StoreKit
 
+let startTimes = 20
+
 @available(iOS 10.3, *)
 class RateApp {
     
     class func incrementCount() {
         let count = UserDefaults.standard.integer(forKey: "run_count")
-        if count < 2 {
+        if count < startTimes {
             UserDefaults.standard.set(count + 1, forKey: "run_count")
             UserDefaults.standard.synchronize()
         }
@@ -22,10 +24,9 @@ class RateApp {
     
     class func showRatesController() {
         let count = UserDefaults.standard.integer(forKey: "run_count")
-        if count == 2 {
+        if count == startTimes {
             DispatchQueue.main.asyncAfter(deadline: .now(), execute: {
                 SKStoreReviewController.requestReview()
-                
             })
         }
     }
