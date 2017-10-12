@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        RateApp.showRatesController()
+//        RateApp.showRatesController()
         
         btnNavCalcSimple.setTitle(NSLocalizedString("navigation_menu_simple", comment: ""), for: UIControlState.normal)
         btnNavCalcVat.setTitle(NSLocalizedString("navigation_menu_vat", comment: ""), for: UIControlState.normal)
