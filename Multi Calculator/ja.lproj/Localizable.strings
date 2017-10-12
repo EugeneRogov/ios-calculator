@@ -1,88 +1,88 @@
 
 
-"app_name" = "Калькулятор";
-"cancel" = "Отмена";
+"app_name" = "電卓";
+"cancel" = "キャンセル";
 
-"navigation_menu_simple" = "Классический калькулятор";
-"navigation_menu_scientific" = "Инженерный калькулятор";
-"navigation_menu_vat" = "НДС калькулятор";
-"navigation_menu_date" = "Калькулятор дней";
-"navigation_menu_percent" = "Калькулятор процентов";
-"navigation_menu_loan" = "Кредитный калькулятор";
-"navigation_menu_settings" = "Настройки";
-"navigation_menu_our_apps" = "Наши приложения";
-"navigation_menu_about" = "О приложении";
-"navigation_menu_send_result" = "Отправить результат";
-"navigation_menu_help" = "Помощь";
-"navigation_menu_history" = "История";
-"navigation_menu_update_app" = "Обновить";
-"navigation_menu_no_advertising" = "Обновление";
-"navigation_menu_app_page" = "Страница приложения";
-"navigation_menu_common_settings" = "Общие настройки";
+"navigation_menu_simple" = "シンプルな電卓";
+"navigation_menu_scientific" = "科学計算用電卓";
+"navigation_menu_vat" = "付加価値税の計算";
+"navigation_menu_date" = "日付の計算";
+"navigation_menu_percent" = "パーセントの計算";
+"navigation_menu_loan" = "クレジット電卓";
+"navigation_menu_settings" = "設定";
+"navigation_menu_our_apps" = "私たちのアプリ";
+"navigation_menu_about" = "約";
+"navigation_menu_send_result" = "結果を送信";
+"navigation_menu_help" = "助けて";
+"navigation_menu_history" = "歴史";
+"navigation_menu_update_app" = "更新";
+"navigation_menu_no_advertising" = "更新";
+"navigation_menu_app_page" = "アプリケーションページ";
+"navigation_menu_common_settings" = "共通設定";
 
-"menu_about_help" = "Помощь";
-"menu_about_share" = "Поделиться";
-"menu_about_rate" = "Оценить приложение";
-"menu_about_thanks" = "Благодарности";
-"menu_about_intro" = "Обзор приложения";
-"menu_about_calculator_pro" = "Калькулятор PRO";
+"menu_about_help" = "助けて";
+"menu_about_share" = "シェア";
+"menu_about_rate" = "レートアプリ";
+"menu_about_thanks" = "感謝";
+"menu_about_intro" = "アプリケーションの概要";
+"menu_about_calculator_pro" = "電卓 PRO";
 
-"menu_history_clear_history" = "Очистить историю";
+"menu_history_clear_history" = "履歴をクリア";
 
-"dialog_connection" = "Проверьте интернет подключение и повторите попытку";
-"dialog_message_delete_history" = "Внимание! Вся история будет удалена";
-"dialog_this_functionality" = "Данная функция находится в стадии разработки. Приносим свои извинения за доставленные неудобства!";
+"dialog_connection" = "インターネット接続を確認してもう一度お試しください";
+"dialog_message_delete_history" = "注意！すべての履歴が削除されます";
+"dialog_this_functionality" = "この機能は、開発中で、次のバージョンで追加されます。 ご不便をおかけして申し訳ございません！";
 
-"result_of_calculations" = "Результат расчетов";
-"result_empty" = "Поле результат не заполнено";
+"result_of_calculations" = "計算の結果";
+"result_empty" = "結果は空です";
 
-"history" = "История";
-"toast_device_not_supported" = "Устройство не поддерживается";
-"toast_press_again_to_exit" = "Нажмите еще раз, чтобы выйти";
-"toast_ads_disabled" = "PRO режим активирован";
+"history" = "歴史";
+"toast_device_not_supported" = "デバイスがサポートされていません";
+"toast_press_again_to_exit" = "もう一度押すと終了します";
+"toast_ads_disabled" = "PROモードが有効になっている";
 
-"dialog_pro_description" = "Доступ ко всем функциям приложения";
-"dialog_pro_ok" = "Попробовать";
-"dialog_pro_cancel" = "Позже";
+"dialog_pro_description" = "すべてのアプリケーション機能へのアクセス";
+"dialog_pro_ok" = "試してみてください";
+"dialog_pro_cancel" = "後で";
 
 //<!--InAppPurchaseActivity-->
-"title_sub" = "Удобная работа. Без рекламы.";
-"title_discount" = "Получите скидку %1$s%%";
-"radio_1" = "Навсегда";
-"radio_2" = "Годовая подписка";
-"radio_3" = "Месячная подписка";
-"btn_further" = "Далее";
-"radio_4" = "%1$s мин";
-"radio_4_sub" = "Просмотр ролика до конца";
+"title_sub" = "簡単に作業できます。 広告なし。";
+"title_discount" = "割引を受けます %1$s%%";
+"radio_1" = "永遠に";
+"radio_2" = "年次";
+"radio_3" = "月";
+"btn_further" = "さらに";
+"radio_4" = "%1$s分";
+"radio_4_sub" = "ビデオを最後まで見る";
 
-"title_thanks" = "Спасибо за установку нашего БЕСПЛАТНОГО приложения!";
-"title_thanks_sub" = "Поддержка этого приложения осуществляется за счет рекламы, которую можно отключить, обновив версию до Калькулятор PRO.";
-"btn_disable_ads" = "Отключить рекламу";
-"btn_continue_with_ads" = "Продолжить с рекламой";
-"toast_show_video_not_available" = "Просмотр видео недоступен в данный момент. Попробуйте позже.";
+"title_thanks" = "私たちの無料アプリをインストールしていただきありがとうございます！";
+"title_thanks_sub" = "このアプリケーションの開発は、オフにすることができます広告を介して行われ、PRO電卓にアップグレードします。";
+"btn_disable_ads" = "広告を無効にする";
+"btn_continue_with_ads" = "広告";
+"toast_show_video_not_available" = "現在、ビデオを見ることはできません。 後で試してみてください。";
 
-"comparison_functions" = "Сравнение функций";
-"without_ads" = "Без рекламы";
-"more_work_space" = "Больше рабочего места";
-"work_without_internet" = "Работа без интернета";
+"comparison_functions" = "関数の比較";
+"without_ads" = "広告なし";
+"more_work_space" = "より多くの作業スペース";
+"work_without_internet" = "インターネットなしで働く";
 
 //<!--WelcomeActivity-->
-"slide_1_desc" = "Простой и интуитивно понятный инструмент для повседневных расчетов";
-"slide_2_desc" = "Простой и легкий расчет НДС";
-"slide_3_desc" = "Быстро узнать, сколько дней осталось до важной даты";
-"slide_4_desc" = "Расчет процентов еще не был таким легким";
-"slide_5_desc" = "Расчет ежемесячного платежа и переплаты по кредиту";
+"slide_1_desc" = "日常計算のための簡単で直感的なツール";
+"slide_2_desc" = "シンプルで簡単な付加価値税の計算";
+"slide_3_desc" = "重要な日の前に何日残っているかを素早く確認できます";
+"slide_4_desc" = "パーセントの計算は簡単です";
+"slide_5_desc" = "毎月の支払いの計算とローンの過払い";
 
 //<!--SettingsCommon-->
-"settings_general" = "Общие";
-"vibration_response" = "Виброотклик";
-"nav_menu_opened" = "Открывать меню навигации";
-"nav_menu_opened_summary" = "Автоматически открывает меню при открытии приложения";
-"menu_settings" = "Калькуляторы";
-"theme" = "Тема";
-"theme_auto" = "Авто";
-"theme_dark" = "Темная";
-"theme_light" = "Светлая";
+"settings_general" = "一般";
+"vibration_response" = "振動応答";
+"nav_menu_opened" = "オープンナビゲーションメニュー";
+"nav_menu_opened_summary" = "アプリを開くと、自動的にメニューが表示されます";
+"menu_settings" = "電卓";
+"theme" = "テーマ";
+"theme_auto" = "オート";
+"theme_dark" = "ダーク";
+"theme_light" = "光";
 //<string-array name="app_theme_entries">
 //<item>@string/theme_auto</item>
 //<item>@string/theme_dark</item>
@@ -93,78 +93,78 @@
 //<item>1</item>
 //<item>2</item>
 //</string-array>
-"exit" = "Выход";
-"double_click" = "Двойной клик";
+"exit" = "出口";
+"double_click" = "ダブルクリック";
 
 //<!--CalcSimple-->
-"animation" = "Анимация";
-"decimal_format" = "Десятичный формат";
-"action_highlighting" = "Выделение действий";
-"toast_input_error" = "Ошибка ввода";
-"toast_arithmetic_error" = "Арифметическая ошибка";
-"number_symbols_after_comma" = "Количество знаков после запятой";
-"scale_operation" = "Размер основного поля";
-"scale_result" = "Размер вспомогательного поля";
-"show_memory_buttons" = "Кнопки памяти";
+"animation" = "アニメーション";
+"decimal_format" = "小数形式";
+"action_highlighting" = "アクションハイライト";
+"toast_input_error" = "入力エラー";
+"toast_arithmetic_error" = "算術演算エラー";
+"number_symbols_after_comma" = "カンマの後の記号の数";
+"scale_operation" = "メインフィールドのサイズ";
+"scale_result" = "追加フィールドのサイズ";
+"show_memory_buttons" = "メモリボタン";
 
 //<!--CalcVat-->
-"amount" = "Сумма";
-"rate_of_vat" = "Ставка";
-"add_vat" = "Начислить НДС";
-"exclude_vat" = "Выделить НДС";
-"sum_vat" = "Сумма НДС";
-"sum_with_vat" = "Сумма c НДС";
-"sum_without_vat" = "Сумма без НДС";
+"amount" = "量";
+"rate_of_vat" = "付加価値税（VAT）率";
+"add_vat" = "VATを追加";
+"exclude_vat" = "付加価値税（VAT）を選択します";
+"sum_vat" = "付加価値税の合計";
+"sum_with_vat" = "金額プラス付加価値税（VAT）";
+"sum_without_vat" = "付加価値税を除きます";
 
 //<!--CalcDate-->
-"years" = "Годы";
-"months" = "Mесяцы";
-"weeks" = "Недели";
-"days" = "Дни";
-"hours" = "Часы";
-"minutes" = "Минуты";
-"seconds" = "Секунды";
-"total" = "Итого";
+"years" = "年";
+"months" = "ヶ月";
+"weeks" = "ウィークス";
+"days" = "日";
+"hours" = "営業時間";
+"minutes" = "分";
+"seconds" = "秒";
+"total" = "合計";
 
 //<!--CalcPercent-->
-"how_much_is" = "Сколько составляет &#37; от числа";
-"what_percent_of_the_number_of" = "Сколько &#37; составляет число от числа";
-"add" = "Прибавить &#37; к числу";
-"subtract" = "Вычесть &#37; из числа";
-"percent" = "Процент";
-"number" = "Число";
-"format_result_percent" = "%1$s%% от числа %2$s = %3$s";
-"format_result_number" = "Число %1$s от числа %2$s = %3$s%%";
-"format_result_add" = "Прибавить %1$s%% к числу %2$s = %3$s";
-"format_result_subtract" = "Вычесть %1$s%% из числа %2$s = %3$s";
+"how_much_is" = "How much is &#37; of number";
+"what_percent_of_the_number_of" = "What number &#37; of the number";
+"add" = "Add &#37; to number";
+"subtract" = "Subtract &#37; from number";
+"percent" = "Percent";
+"number" = "Number";
+"format_result_percent" = "%1$s%% from number %2$s = %3$s";
+"format_result_number" = "Number %1$s from number %2$s = %3$s%%";
+"format_result_add" = "Add %1$s%% to number %2$s = %3$s";
+"format_result_subtract" = "Subtract %1$s%% from number %2$s = %3$s";
 
 //<!--CalcLoan-->
-"calc_loan_schedule_title" = "График платежей";
-"calc_loan_annuity" = "Аннуитетный";
-"calc_loan_differentiated" = "Дифференцированный";
-"calc_loan_monthly_payment" = "Ежемесячный платеж";
-"calc_loan_overpayment" = "Переплата";
-"calc_loan_total_sum" = "Полная сумма";
-"calc_loan_main_payment" = "Основной платеж";
-"calc_loan_sum" = "Сумма кредита:";
-"calc_loan_term" = "Срок кредита:";
-"calc_loan_rate" = "Процентная ставка:";
-"hint_calc_loan_term" = "мес.";
+"calc_loan_schedule_title" = "支払いスケジュール";
+"calc_loan_annuity" = "Annuity";
+"calc_loan_differentiated" = "Differentiated";
+"calc_loan_monthly_payment" = "毎月の支払額";
+"calc_loan_overpayment" = "払い過ぎ";
+"calc_loan_total_sum" = "累計";
+"calc_loan_main_payment" = "メインのお支払い";
+"calc_loan_sum" = "和";
+"calc_loan_rate" = "レート";
+"calc_loan_term" = "期間";
+"hint_calc_loan_term" = "月";
 
 //<!-- About (ТОЛЬКО EN И RU) -->
 //<string name="about_text">Благодарим за использование приложения Калькулятор! Если у Вас есть предложения или возникли вопросы, пожалуйста, напишите нам по адресу  <a href="mailto:xdpilab@gmail.com">xdpilab@gmail.com</a>. \n \nС уважением, команда <b>XDPI Lab</b></string>
-"version" = "Версия";
+"version" = "Version";
 
 //<!--Thanks-->
-"app_developed" = "Калькулятор для Android разработан с использованием следующих программ с открытым исходным кодом";
+"app_developed" = "Calculator for Android was developed with open source software using the following programs";
 
 //<!-- RateApp -->
-"dialog_rate_app_title" = "Нравится приложение?";
-"dialog_rate_app_message" = "Нажми \"Да\" и поставь оценку в Google Play! Или \"Нет\", и напиши что случилось.";
-"dialog_rate_app_ok" = "Да";
-"dialog_rate_app_cancel" = "Ответить позже";
-"dialog_rate_app_no" = "Нет";
+"dialog_rate_app_title" = "アプリの評価";
+"dialog_rate_app_message" = "はい、レートまたはNoをタップして、私達にあなたのフィードバックを与えます。";
+"dialog_rate_app_ok" = "はい";
+"dialog_rate_app_cancel" = "後で";
+"dialog_rate_app_no" = "いいえ";
 
-"stopwatch" = "Секундомер";
-"contact_lenses" = "Контактные линзы";
-"curious_bunny" = "Любопытный Кролик";
+"stopwatch" = "ストップウォッチ";
+"contact_lenses" = "コンタクトレンズ";
+"curious_bunny" = "おさるのウサギ";
