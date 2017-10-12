@@ -18,23 +18,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         RateApp.showRatesController()
-        
-        // init views
-        btnNavCalcSimple.setTitle(NSLocalizedString("navigation_menu_simple", comment: ""), for: UIControlState.normal)
-        btnNavCalcVat.setTitle(NSLocalizedString("navigation_menu_vat", comment: ""), for: UIControlState.normal)
-        btnNavCalcDate.setTitle(NSLocalizedString("navigation_menu_date", comment: ""), for: UIControlState.normal)
-        btnNavCalcPercent.setTitle(NSLocalizedString("navigation_menu_percent", comment: ""), for: UIControlState.normal)
-        btnNavCalcLoan.setTitle(NSLocalizedString("navigation_menu_loan", comment: ""), for: UIControlState.normal)
-        
-        
+        initViews()
         
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    fileprivate func initViews() {
+        btnNavCalcSimple.setTitle(NSLocalizedString("navigation_menu_simple", comment: ""), for: UIControlState.normal)
+        btnNavCalcVat.setTitle(NSLocalizedString("navigation_menu_vat", comment: ""), for: UIControlState.normal)
+        btnNavCalcDate.setTitle(NSLocalizedString("navigation_menu_date", comment: ""), for: UIControlState.normal)
+        btnNavCalcPercent.setTitle(NSLocalizedString("navigation_menu_percent", comment: ""), for: UIControlState.normal)
+        btnNavCalcLoan.setTitle(NSLocalizedString("navigation_menu_loan", comment: ""), for: UIControlState.normal)
+        
     }
 
 }

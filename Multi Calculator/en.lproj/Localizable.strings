@@ -127,10 +127,10 @@
 "total" = "Total";
 
 //<!--CalcPercent-->
-"how_much_is" = "How much is &#37; of number";
-"what_percent_of_the_number_of" = "What number &#37; of the number";
-"add" = "Add &#37; to number";
-"subtract" = "Subtract &#37; from number";
+"how_much_is" = "How much is % of number";
+"what_percent_of_the_number_of" = "What number % of the number";
+"add" = "Add % to number";
+"subtract" = "Subtract % from number";
 "percent" = "Percent";
 "number" = "Number";
 "format_result_percent" = "%1$s%% from number %2$s = %3$s";

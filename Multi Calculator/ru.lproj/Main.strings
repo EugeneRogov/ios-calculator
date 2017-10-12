@@ -1,1 +1,106 @@
 
+/* Class = "UILabel"; text = "Sum with VAT"; ObjectID = "3e8-rc-f9G"; */
+"3e8-rc-f9G.text" = "Sum with VAT";
+
+/* Class = "UIViewController"; title = "Loan calculator"; ObjectID = "4ur-k3-gsV"; */
+"4ur-k3-gsV.title" = "Loan calculator";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6QM-Lf-lIZ"; */
+"6QM-Lf-lIZ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Percent calculator"; ObjectID = "9BE-ZN-KNv"; */
+"9BE-ZN-KNv.normalTitle" = "Percent calculator";
+
+/* Class = "UILabel"; text = "Sum VAT"; ObjectID = "9u7-wZ-NVm"; */
+"9u7-wZ-NVm.text" = "Sum VAT";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AE1-pN-yTN"; */
+"AE1-pN-yTN.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Bs4-63-maD"; */
+"Bs4-63-maD.text" = "Label";
+
+/* Class = "UIViewController"; title = "VAT calculator"; ObjectID = "CDi-M9-4ci"; */
+"CDi-M9-4ci.title" = "VAT calculator";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CQN-HY-tji"; */
+"CQN-HY-tji.text" = "Label";
+
+/* Class = "UIViewController"; title = "Simple calculator"; ObjectID = "GLZ-cD-vdL"; */
+"GLZ-cD-vdL.title" = "Simple calculator";
+
+/* Class = "UIButton"; normalTitle = "VAT calculator"; ObjectID = "IOX-BL-SxU"; */
+"IOX-BL-SxU.normalTitle" = "VAT calculator";
+
+/* Class = "UILabel"; text = "Sum with VAT"; ObjectID = "JAd-H4-nBr"; */
+"JAd-H4-nBr.text" = "Sum with VAT";
+
+/* Class = "UILabel"; text = "EXCLUDE VAT"; ObjectID = "JL9-mi-HU3"; */
+"JL9-mi-HU3.text" = "EXCLUDE VAT";
+
+/* Class = "UIViewController"; title = "Percent calculator"; ObjectID = "JQ1-d9-qnP"; */
+"JQ1-d9-qnP.title" = "Percent calculator";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "KlQ-w1-ola"; */
+"KlQ-w1-ola.text" = "0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Lub-SO-I6e"; */
+"Lub-SO-I6e.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Simple calculator"; ObjectID = "Tf1-xn-Zu2"; */
+"Tf1-xn-Zu2.normalTitle" = "Simple calculator";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "UUG-1c-3dY"; */
+"UUG-1c-3dY.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VCU-Ou-YSd"; */
+"VCU-Ou-YSd.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Wox-ft-LJY"; */
+"Wox-ft-LJY.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Date calculator"; ObjectID = "XLf-2K-kHm"; */
+"XLf-2K-kHm.normalTitle" = "Date calculator";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Xic-x0-3j0"; */
+"Xic-x0-3j0.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ZLw-Py-AM3"; */
+"ZLw-Py-AM3.text" = "0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cJu-kl-mGr"; */
+"cJu-kl-mGr.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Loan calculator"; ObjectID = "cSd-zG-M9Y"; */
+"cSd-zG-M9Y.normalTitle" = "Loan calculator";
+
+/* Class = "UILabel"; text = "Sum VAT"; ObjectID = "gR1-EN-PaB"; */
+"gR1-EN-PaB.text" = "Sum VAT";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "i7c-qg-5mc"; */
+"i7c-qg-5mc.text" = "Label";
+
+/* Class = "UILabel"; text = "ADD VAT"; ObjectID = "iMe-wn-d76"; */
+"iMe-wn-d76.text" = "ADD VAT";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kIu-sz-LoI"; */
+"kIu-sz-LoI.text" = "Label";
+
+/* Class = "UILabel"; text = "Rate Of VAT"; ObjectID = "n3u-k5-DIH"; */
+"n3u-k5-DIH.text" = "Rate Of VAT";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pYq-Bf-HGP"; */
+"pYq-Bf-HGP.text" = "Label";
+
+/* Class = "UIViewController"; title = "Date calculator"; ObjectID = "rcF-5a-BHL"; */
+"rcF-5a-BHL.title" = "Date calculator";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sN3-nK-Kf3"; */
+"sN3-nK-Kf3.text" = "Label";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "uJS-in-1lG"; */
+"uJS-in-1lG.text" = "0";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "xgM-IR-XCI"; */
+"xgM-IR-XCI.text" = "Amount";
+
