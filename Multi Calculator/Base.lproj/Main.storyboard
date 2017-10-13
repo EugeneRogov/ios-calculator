@@ -125,14 +125,14 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Percent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCU-Ou-YSd">
-                                                <rect key="frame" x="8" y="42" width="60" height="21"/>
+                                                <rect key="frame" x="8" y="42" width="100" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQN-HY-tji">
-                                                <rect key="frame" x="8" y="80" width="62" height="21"/>
+                                                <rect key="frame" x="8" y="80" width="100" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -160,14 +160,14 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nmber" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJu-kl-mGr">
-                                                <rect key="frame" x="8" y="164" width="53" height="21"/>
+                                                <rect key="frame" x="8" y="164" width="100" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYq-Bf-HGP">
-                                                <rect key="frame" x="8" y="202" width="62" height="21"/>
+                                                <rect key="frame" x="8" y="202" width="100" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -195,14 +195,14 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Percent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AE1-pN-yTN">
-                                                <rect key="frame" x="8" y="298" width="60" height="21"/>
+                                                <rect key="frame" x="8" y="298" width="100" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIu-sz-LoI">
-                                                <rect key="frame" x="8" y="336" width="62" height="21"/>
+                                                <rect key="frame" x="8" y="336" width="100" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -230,14 +230,14 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Percent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wox-ft-LJY">
-                                                <rect key="frame" x="8" y="420" width="60" height="21"/>
+                                                <rect key="frame" x="8" y="420" width="100" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bs4-63-maD">
-                                                <rect key="frame" x="8" y="458" width="62" height="21"/>
+                                                <rect key="frame" x="8" y="458" width="100" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -281,6 +281,22 @@
                         <viewLayoutGuide key="safeArea" id="WYV-Rv-4mU"/>
                     </view>
                     <connections>
+                        <outlet property="etNumber1" destination="zt6-Hb-aG2" id="mHX-w3-gBT"/>
+                        <outlet property="etNumber2" destination="Dac-fG-yw8" id="0Hj-Un-Sxw"/>
+                        <outlet property="etNumber2_" destination="2dU-c4-Lek" id="zWB-lp-5Je"/>
+                        <outlet property="etNumber3" destination="bD4-Pl-3La" id="7nj-W9-kxE"/>
+                        <outlet property="etNumber4" destination="Odh-R0-ley" id="Ubo-tf-HNd"/>
+                        <outlet property="etPercent1" destination="TEX-TT-zgn" id="2qJ-af-DGf"/>
+                        <outlet property="etPercent3" destination="YrX-S9-F2z" id="XC2-Qz-ddf"/>
+                        <outlet property="etPercent4" destination="ac8-gm-JIZ" id="5c7-9H-NA5"/>
+                        <outlet property="tvNumber1" destination="CQN-HY-tji" id="dKH-RL-9Vj"/>
+                        <outlet property="tvNumber2" destination="cJu-kl-mGr" id="5GN-EK-JE7"/>
+                        <outlet property="tvNumber2_" destination="pYq-Bf-HGP" id="vcm-fg-b9U"/>
+                        <outlet property="tvNumber3" destination="kIu-sz-LoI" id="Beh-AJ-KEH"/>
+                        <outlet property="tvNumber4" destination="Bs4-63-maD" id="L9c-20-eRq"/>
+                        <outlet property="tvPercent1" destination="VCU-Ou-YSd" id="Ru9-fB-gyi"/>
+                        <outlet property="tvPercent3" destination="AE1-pN-yTN" id="5Ue-Hc-N7a"/>
+                        <outlet property="tvPercent4" destination="Wox-ft-LJY" id="DXJ-ge-bTT"/>
                         <outlet property="tvTitle1" destination="6QM-Lf-lIZ" id="5Vf-9E-z9K"/>
                         <outlet property="tvTitle2" destination="sN3-nK-Kf3" id="tod-vz-4pw"/>
                         <outlet property="tvTitle3" destination="i7c-qg-5mc" id="nA0-be-Pi8"/>
