@@ -1,14 +1,14 @@
 //
-//  CalcLoan.swift
+//  Settings.swift
 //  Multi Calculator
 //
-//  Created by Евгений Рогов on 11.10.17.
+//  Created by Евгений Рогов on 15.10.17.
 //  Copyright © 2017 XDPI Lab. All rights reserved.
 //
 
 import UIKit
 
-class CalcLoan: UIViewController {
+class Settings: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,3 +17,4 @@ class CalcLoan: UIViewController {
     }
     
 }
+

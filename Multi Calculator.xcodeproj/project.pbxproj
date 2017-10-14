@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		4414488F1F8F68B500AB5FB6 /* RateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414488E1F8F68B500AB5FB6 /* RateApp.swift */; };
 		44AEE0201F8E248D003D4832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE01F1F8E248D003D4832 /* AppDelegate.swift */; };
-		44AEE0221F8E248D003D4832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE0211F8E248D003D4832 /* ViewController.swift */; };
+		44AEE0221F8E248D003D4832 /* NavMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE0211F8E248D003D4832 /* NavMenu.swift */; };
 		44AEE0251F8E248D003D4832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AEE0231F8E248D003D4832 /* Main.storyboard */; };
 		44AEE0271F8E248D003D4832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AEE0261F8E248D003D4832 /* Assets.xcassets */; };
 		44AEE02A1F8E248D003D4832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AEE0281F8E248D003D4832 /* LaunchScreen.storyboard */; };
 		44AEE0351F8E248D003D4832 /* Multi_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE0341F8E248D003D4832 /* Multi_CalculatorTests.swift */; };
 		44AEE0401F8E248D003D4832 /* Multi_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE03F1F8E248D003D4832 /* Multi_CalculatorUITests.swift */; };
 		44AEE0531F8E2568003D4832 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44AEE0551F8E2568003D4832 /* Localizable.strings */; };
+		44DD99701F92B9E500990C9D /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD996F1F92B9E500990C9D /* About.swift */; };
+		44DD99721F92BA6E00990C9D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD99711F92BA6E00990C9D /* Settings.swift */; };
 		44E423E71F8E480400A5BF6E /* CalcSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E423E61F8E480400A5BF6E /* CalcSimple.swift */; };
 		44E423ED1F8E4A6700A5BF6E /* CalcVat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E423EC1F8E4A6700A5BF6E /* CalcVat.swift */; };
 		44E423EF1F8E4B5600A5BF6E /* CalcPercent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E423EE1F8E4B5600A5BF6E /* CalcPercent.swift */; };
@@ -53,7 +55,7 @@
 		442993DB1F8FC431005F45C2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		44AEE01C1F8E248D003D4832 /* Multi Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AEE01F1F8E248D003D4832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44AEE0211F8E248D003D4832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44AEE0211F8E248D003D4832 /* NavMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavMenu.swift; sourceTree = "<group>"; };
 		44AEE0241F8E248D003D4832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44AEE0261F8E248D003D4832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44AEE0291F8E248D003D4832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +71,8 @@
 		44AEE0521F8E253F003D4832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		44AEE0541F8E2568003D4832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		44AEE0561F8E256D003D4832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		44DD996F1F92B9E500990C9D /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		44DD99711F92BA6E00990C9D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		44E423E61F8E480400A5BF6E /* CalcSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcSimple.swift; sourceTree = "<group>"; };
 		44E423EC1F8E4A6700A5BF6E /* CalcVat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcVat.swift; sourceTree = "<group>"; };
 		44E423EE1F8E4B5600A5BF6E /* CalcPercent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcPercent.swift; sourceTree = "<group>"; };
@@ -130,8 +134,10 @@
 				44E423E81F8E496000A5BF6E /* calc_date */,
 				44E423E51F8E47B200A5BF6E /* calc_simple */,
 				44AEE01F1F8E248D003D4832 /* AppDelegate.swift */,
-				44AEE0211F8E248D003D4832 /* ViewController.swift */,
+				44DD996F1F92B9E500990C9D /* About.swift */,
+				44AEE0211F8E248D003D4832 /* NavMenu.swift */,
 				4414488E1F8F68B500AB5FB6 /* RateApp.swift */,
+				44DD99711F92BA6E00990C9D /* Settings.swift */,
 				44AEE0231F8E248D003D4832 /* Main.storyboard */,
 				44AEE0261F8E248D003D4832 /* Assets.xcassets */,
 				44AEE0281F8E248D003D4832 /* LaunchScreen.storyboard */,
@@ -337,13 +343,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44AEE0221F8E248D003D4832 /* ViewController.swift in Sources */,
+				44AEE0221F8E248D003D4832 /* NavMenu.swift in Sources */,
 				44E423E71F8E480400A5BF6E /* CalcSimple.swift in Sources */,
 				44E423F11F8E4BA200A5BF6E /* CalcLoan.swift in Sources */,
 				44E423ED1F8E4A6700A5BF6E /* CalcVat.swift in Sources */,
+				44DD99721F92BA6E00990C9D /* Settings.swift in Sources */,
 				44E423F31F8E4C2000A5BF6E /* CalcDate.swift in Sources */,
 				4414488F1F8F68B500AB5FB6 /* RateApp.swift in Sources */,
 				44E423EF1F8E4B5600A5BF6E /* CalcPercent.swift in Sources */,
+				44DD99701F92B9E500990C9D /* About.swift in Sources */,
 				44AEE0201F8E248D003D4832 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

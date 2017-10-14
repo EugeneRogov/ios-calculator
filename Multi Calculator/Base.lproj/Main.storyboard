@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Multi Calculator-->
+        <!--Nav Menu-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="NavMenu" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,6 +91,34 @@
                                             <segue destination="4ur-k3-gsV" kind="show" id="ntI-Lp-0Df"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dIk-yA-P8c">
+                                        <rect key="frame" x="8" y="198" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2O0-ms-JFU">
+                                        <rect key="frame" x="46" y="198" width="206" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Common Settings">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="qLa-Dh-Ji4" kind="show" id="5iX-su-Bgd"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LJg-Or-bLE">
+                                        <rect key="frame" x="8" y="236" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PwX-We-9xv">
+                                        <rect key="frame" x="45" y="236" width="206" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="About">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Tye-9s-L5J" kind="show" id="chQ-25-Xjp"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -98,18 +126,67 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Multi Calculator" id="qnE-O4-UFx"/>
+                    <navigationItem key="navigationItem" id="qnE-O4-UFx"/>
                     <connections>
+                        <outlet property="btnNavAbout" destination="PwX-We-9xv" id="yIa-ML-VH5"/>
                         <outlet property="btnNavCalcDate" destination="XLf-2K-kHm" id="mV9-8j-Nky"/>
                         <outlet property="btnNavCalcLoan" destination="cSd-zG-M9Y" id="tg8-2Q-B1I"/>
                         <outlet property="btnNavCalcPercent" destination="9BE-ZN-KNv" id="pzD-Wh-cfP"/>
                         <outlet property="btnNavCalcSimple" destination="Tf1-xn-Zu2" id="q66-I6-uNj"/>
                         <outlet property="btnNavCalcVat" destination="IOX-BL-SxU" id="dyM-nV-oRm"/>
+                        <outlet property="btnNavCommonSettings" destination="2O0-ms-JFU" id="hn5-wW-4uB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="479.19999999999999" y="109.29535232383809"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="pN6-tf-xQf">
+            <objects>
+                <viewController title="Settings" id="qLa-Dh-Ji4" customClass="Settings" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S1C-lm-YCT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="mR8-S0-uiU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YgG-bv-2Yl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-316" y="860"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="zEM-Ni-6Gu">
+            <objects>
+                <viewController title="About" id="Tye-9s-L5J" customClass="About" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f40-pA-4x6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Thank you for using app Calculator! If you have got any questions or suggestions how to improve our app, please email us at" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L8B-qx-1RP">
+                                <rect key="frame" x="67" y="64" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppIcon" translatesAutoresizingMaskIntoConstraints="NO" id="RGV-vi-gPR">
+                                <rect key="frame" x="162" y="308" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="NE2-9E-6AY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ivIcon" destination="RGV-vi-gPR" id="O9U-7Q-RE7"/>
+                        <outlet property="tvText" destination="L8B-qx-1RP" id="82V-cU-NUh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uXG-ZQ-Ctm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="479" y="860"/>
         </scene>
         <!--Percent calculator-->
         <scene sceneID="sUe-sz-2DJ">
@@ -778,4 +855,7 @@
             <point key="canvasLocation" x="-316" y="109"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AppIcon" width="16" height="16"/>
+    </resources>
 </document>
