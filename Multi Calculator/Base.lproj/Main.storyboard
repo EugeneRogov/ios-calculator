@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="64" width="260" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eHC-HI-fyV">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_format_superscript_grey" translatesAutoresizingMaskIntoConstraints="NO" id="eHC-HI-fyV">
                                         <rect key="frame" x="8" y="8" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -35,7 +35,7 @@
                                             <segue destination="GLZ-cD-vdL" kind="show" id="mTM-1z-QaX"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iv2-OX-Qo0">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_currency_usd_grey" translatesAutoresizingMaskIntoConstraints="NO" id="iv2-OX-Qo0">
                                         <rect key="frame" x="8" y="46" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -49,7 +49,7 @@
                                             <segue destination="CDi-M9-4ci" kind="show" id="8X3-kb-5Jm"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WvW-f7-EFV">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_counter_grey" translatesAutoresizingMaskIntoConstraints="NO" id="WvW-f7-EFV">
                                         <rect key="frame" x="8" y="84" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -63,7 +63,7 @@
                                             <segue destination="rcF-5a-BHL" kind="show" id="5x0-qs-rAH"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ho-w6-iap">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_percent_grey" translatesAutoresizingMaskIntoConstraints="NO" id="1ho-w6-iap">
                                         <rect key="frame" x="8" y="122" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -77,7 +77,7 @@
                                             <segue destination="JQ1-d9-qnP" kind="show" id="mfd-vC-HiK"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HIE-dl-g4J">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_credit_card_grey" translatesAutoresizingMaskIntoConstraints="NO" id="HIE-dl-g4J">
                                         <rect key="frame" x="8" y="160" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -91,7 +91,7 @@
                                             <segue destination="4ur-k3-gsV" kind="show" id="ntI-Lp-0Df"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dIk-yA-P8c">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_settings_grey" translatesAutoresizingMaskIntoConstraints="NO" id="dIk-yA-P8c">
                                         <rect key="frame" x="8" y="198" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -105,7 +105,7 @@
                                             <segue destination="qLa-Dh-Ji4" kind="show" id="5iX-su-Bgd"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LJg-Or-bLE">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_information_grey" translatesAutoresizingMaskIntoConstraints="NO" id="LJg-Or-bLE">
                                         <rect key="frame" x="8" y="236" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -857,5 +857,12 @@
     </scenes>
     <resources>
         <image name="AppIcon" width="16" height="16"/>
+        <image name="ic_counter_grey" width="76" height="76"/>
+        <image name="ic_credit_card_grey" width="76" height="76"/>
+        <image name="ic_currency_usd_grey" width="76" height="76"/>
+        <image name="ic_format_superscript_grey" width="76" height="76"/>
+        <image name="ic_information_grey" width="76" height="76"/>
+        <image name="ic_percent_grey" width="76" height="76"/>
+        <image name="ic_settings_grey" width="76" height="76"/>
     </resources>
 </document>
