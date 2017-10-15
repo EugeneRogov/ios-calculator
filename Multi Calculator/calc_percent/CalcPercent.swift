@@ -41,26 +41,21 @@ class CalcPercent: UIViewController {
     }
     
     fileprivate func initViews() {
-        tvTitle1.text = NSLocalizedString("how_much_is", comment: "")
+        tvTitle1.text = NSLocalizedString("how_much_is", comment: "").uppercased()
         tvPercent1.text = NSLocalizedString("percent", comment: "")
         tvNumber1.text = NSLocalizedString("number", comment: "")
         
-        tvTitle2.text = NSLocalizedString("what_percent_of_the_number_of", comment: "")
+        tvTitle2.text = NSLocalizedString("what_percent_of_the_number_of", comment: "").uppercased()
         tvNumber2.text = NSLocalizedString("number", comment: "")
         tvNumber2_.text = NSLocalizedString("number", comment: "")
         
-        tvTitle3.text = NSLocalizedString("add", comment: "")
+        tvTitle3.text = NSLocalizedString("add", comment: "").uppercased()
         tvPercent3.text = NSLocalizedString("percent", comment: "")
         tvNumber3.text = NSLocalizedString("number", comment: "")
         
-        tvTitle4.text = NSLocalizedString("subtract", comment: "")
+        tvTitle4.text = NSLocalizedString("subtract", comment: "").uppercased()
         tvPercent4.text = NSLocalizedString("percent", comment: "")
         tvNumber4.text = NSLocalizedString("number", comment: "")
-        
-        tvTitle1.text = tvTitle1.text?.uppercased()
-        tvTitle2.text = tvTitle2.text?.uppercased()
-        tvTitle3.text = tvTitle3.text?.uppercased()
-        tvTitle4.text = tvTitle4.text?.uppercased()
         
     }
     
