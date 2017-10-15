@@ -10,10 +10,13 @@ import UIKit
 
 class CalcSimple: UIViewController {
     
+    @IBOutlet weak var btnMc: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+       
     }
 
 }
