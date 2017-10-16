@@ -678,7 +678,32 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v0j-Ry-CoY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="477" y="-629"/>
+            <point key="canvasLocation" x="796" y="-911"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JEF-zc-kyf">
+            <objects>
+                <viewController id="SUL-vN-2mX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ds9-BL-J6Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Cy6-M5-jKO">
+                                <rect key="frame" x="147" y="354" width="121" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="8EJ-xq-KEI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cVG-Uc-p9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1575" y="-911"/>
         </scene>
         <!--Simple calculator-->
         <scene sceneID="1JQ-ac-trN">
@@ -700,7 +725,6 @@
                                         </state>
                                         <connections>
                                             <action selector="btnMc:" destination="GLZ-cD-vdL" eventType="touchUpInside" id="cCq-Vt-1m5"/>
-                                            <segue destination="Ms4-eG-Hfa" kind="show" id="3ap-pX-68z"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFc-8S-Oce">
@@ -1148,6 +1172,8 @@
                         <outlet property="btnPlusMinus" destination="UZF-oc-I9N" id="Qz1-HV-e08"/>
                         <outlet property="btnRightBracket" destination="FBF-Sc-Ii7" id="KU4-BV-DBy"/>
                         <outlet property="btnRoot" destination="rSW-0Y-hjg" id="Jm0-3h-0nH"/>
+                        <segue destination="Ms4-eG-Hfa" kind="show" identifier="segue_calc_simple_settings" id="Qtj-My-1Vu"/>
+                        <segue destination="SUL-vN-2mX" kind="show" identifier="segue_calc_simple_history" id="et9-WN-6e4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jN4-sh-ffO" userLabel="First Responder" sceneMemberID="firstResponder"/>

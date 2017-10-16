@@ -117,7 +117,7 @@ class CalcSimple: UIViewController {
         
     }
     @IBAction func btnEqual(_ sender: Any) {
-
+        self.performSegue(withIdentifier: "segue_calc_simple_settings", sender: nil)
     }
     
     override func viewDidLoad() {
@@ -125,20 +125,27 @@ class CalcSimple: UIViewController {
         
         // set long click listeners
         btnMc.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))
-        btnMminus.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))
-        bntMplus.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))
-        btnMr.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))
-       
+        btnMminus.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openHistory(_:))))
+        bntMplus.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(sendResult(_:))))
+        
     }
     
     @objc func openSettings(_ sender: UIGestureRecognizer) {
-
-        
-        
-        
-        let alertController = UIAlertController(title: nil, message: "Long-Press Gesture Detected", preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default,handler: nil))
-        self.present(alertController, animated: true, completion: nil)
+        if sender.state == .began {
+            self.performSegue(withIdentifier: "segue_calc_simple_settings", sender: nil)
+        }
+    }
+    
+    @objc func openHistory(_ sender: UIGestureRecognizer) {
+        if sender.state == .began {
+            self.performSegue(withIdentifier: "segue_calc_simple_history", sender: nil)
+        }
+    }
+    
+    @objc func sendResult(_ sender: UIGestureRecognizer) {
+        if sender.state == .began {
+            
+        }
     }
 
 }
