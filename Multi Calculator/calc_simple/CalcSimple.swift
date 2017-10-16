@@ -38,10 +38,107 @@ class CalcSimple: UIViewController {
     @IBOutlet weak var btnDel: UIButton!
     @IBOutlet weak var btnEqual: UIButton!
     
+    @IBAction func btnMc(_ sender: Any) {
+        
+    }
+    @IBAction func btnMminus(_ sender: Any) {
+        
+    }
+    @IBAction func bntMplus(_ sender: Any) {
+        
+    }
+    @IBAction func btnMr(_ sender: Any) {
+        
+    }
+    @IBAction func btnAc(_ sender: Any) {
+        
+    }
+    @IBAction func btnLeftBracket(_ sender: Any) {
+        
+    }
+    @IBAction func btnRightBracket(_ sender: Any) {
+        
+    }
+    @IBAction func btnDivision(_ sender: Any) {
+        
+    }
+    @IBAction func btnRoot(_ sender: Any) {
+        
+    }
+    @IBAction func btnPercent(_ sender: Any) {
+        
+    }
+    @IBAction func btnPlusMinus(_ sender: Any) {
+        
+    }
+    @IBAction func btnMultiply(_ sender: Any) {
+        
+    }
+    @IBAction func btn7(_ sender: Any) {
+        
+    }
+    @IBAction func btn8(_ sender: Any) {
+        
+    }
+    @IBAction func btn9(_ sender: Any) {
+        
+    }
+    @IBAction func btnMinus(_ sender: Any) {
+        
+    }
+    @IBAction func btn4(_ sender: Any) {
+        
+    }
+    @IBAction func btn5(_ sender: Any) {
+        
+    }
+    @IBAction func btn6(_ sender: Any) {
+        
+    }
+    @IBAction func btnPlus(_ sender: Any) {
+        
+    }
+    @IBAction func btn1(_ sender: Any) {
+        
+    }
+    @IBAction func btn2(_ sender: Any) {
+        
+    }
+    @IBAction func btn3(_ sender: Any) {
+        
+    }
+    @IBAction func btn0(_ sender: Any) {
+        
+    }
+    @IBAction func btnDot(_ sender: Any) {
+        
+    }
+    @IBAction func btnDel(_ sender: Any) {
+        
+    }
+    @IBAction func btnEqual(_ sender: Any) {
+
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // set long click listeners
+        btnMc.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))
+        btnMminus.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))
+        bntMplus.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))
+        btnMr.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))
        
+    }
+    
+    @objc func openSettings(_ sender: UIGestureRecognizer) {
+
+        
+        
+        
+        let alertController = UIAlertController(title: nil, message: "Long-Press Gesture Detected", preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default,handler: nil))
+        self.present(alertController, animated: true, completion: nil)
     }
 
 }
