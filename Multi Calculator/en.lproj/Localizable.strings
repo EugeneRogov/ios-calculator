@@ -152,7 +152,8 @@
 "hint_calc_loan_term" = "month";
 
 //<!-- About (ТОЛЬКО EN И RU) -->
-//<string name="about_text">Thank you for using app Calculator! If you have got any questions or suggestions how to improve our app, please email us at  <a href="mailto:xdpilab@gmail.com">xdpilab@gmail.com</a>. \n \nBest regards, Team of <b>XDPI Lab</b></string>
+"about_text" = "Thank you for using app Multi Calculator! If you have got any questions or suggestions how to improve our app, please email us";
+"best_regards" = "Best regards, Team of XDPI Lab";
 "version" = "Version";
 
 //<!--Thanks-->
