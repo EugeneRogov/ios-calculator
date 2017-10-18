@@ -10,6 +10,8 @@ import UIKit
 
 class CalcSimple: UIViewController {
     
+    @IBOutlet weak var iconPro: UIImageView!
+    
     @IBOutlet weak var btnMc: UIButton!
     @IBOutlet weak var btnMminus: UIButton!
     @IBOutlet weak var bntMplus: UIButton!

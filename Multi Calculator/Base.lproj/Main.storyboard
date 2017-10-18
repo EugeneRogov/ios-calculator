@@ -565,6 +565,7 @@
                         <outlet property="tvTitle2" destination="sN3-nK-Kf3" id="tod-vz-4pw"/>
                         <outlet property="tvTitle3" destination="i7c-qg-5mc" id="nA0-be-Pi8"/>
                         <outlet property="tvTitle4" destination="Lub-SO-I6e" id="7fq-6r-vvU"/>
+                        <segue destination="Byo-4D-9Yr" kind="show" identifier="segue_update_from_calc_percent" id="Cnm-Wp-2OE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wA2-mF-Kaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1231,15 +1232,32 @@
                         <outlet property="btnPlusMinus" destination="UZF-oc-I9N" id="Qz1-HV-e08"/>
                         <outlet property="btnRightBracket" destination="FBF-Sc-Ii7" id="KU4-BV-DBy"/>
                         <outlet property="btnRoot" destination="rSW-0Y-hjg" id="Jm0-3h-0nH"/>
+                        <outlet property="iconPro" destination="UHk-n6-3ta" id="A5J-Gy-IvA"/>
                         <outlet property="operation" destination="o4C-NT-Fc7" id="wBE-5y-5xL"/>
                         <outlet property="result" destination="4dp-3o-qfQ" id="TAd-R3-GQx"/>
                         <segue destination="Ms4-eG-Hfa" kind="show" identifier="segue_calc_simple_settings" id="Qtj-My-1Vu"/>
                         <segue destination="SUL-vN-2mX" kind="show" identifier="segue_calc_simple_history" id="et9-WN-6e4"/>
+                        <segue destination="Byo-4D-9Yr" kind="show" identifier="segue_update_from_calc_simple" id="eMG-jP-v94"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jN4-sh-ffO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1271" y="-1324"/>
+        </scene>
+        <!--Update-->
+        <scene sceneID="M1n-SO-HL2">
+            <objects>
+                <viewController title="Update" id="Byo-4D-9Yr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="goS-D5-Zfp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="WVN-bk-gh5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Bu-uE-RO1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-317" y="-1326"/>
         </scene>
         <!--VAT calculator-->
         <scene sceneID="PRb-MH-YPQ">
@@ -1370,6 +1388,7 @@
                         <outlet property="tvExcludeSumWithVatResult" destination="uJS-in-1lG" id="aWc-Dc-HZL"/>
                         <outlet property="tvExcludeVat" destination="JL9-mi-HU3" id="0i1-kB-OWf"/>
                         <outlet property="tvRateOfVat" destination="n3u-k5-DIH" id="PWR-dM-QlS"/>
+                        <segue destination="Byo-4D-9Yr" kind="show" identifier="segue_update_from_calc_vat" id="wal-DO-pLh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tY2-dK-jWW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1413,6 +1432,9 @@
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="8PQ-hc-1de"/>
                     </view>
+                    <connections>
+                        <segue destination="Byo-4D-9Yr" kind="show" identifier="segue_update_from_calc_date" id="UQy-M8-WHv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vW-C0-Ol0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1448,5 +1470,8 @@
         <image name="ic_settings_grey" width="76" height="76"/>
         <image name="icon" width="76" height="76"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="UQy-M8-WHv"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
