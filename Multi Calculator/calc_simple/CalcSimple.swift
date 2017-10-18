@@ -38,6 +38,10 @@ class CalcSimple: UIViewController {
     @IBOutlet weak var btnDel: UIButton!
     @IBOutlet weak var btnEqual: UIButton!
     
+    @IBOutlet weak var operation: UILabel!
+    @IBOutlet weak var result: UILabel!
+    
+    
     @IBAction func btnMc(_ sender: Any) {
         
     }
@@ -51,73 +55,73 @@ class CalcSimple: UIViewController {
         
     }
     @IBAction func btnAc(_ sender: Any) {
-        
+        operation.text = ""
     }
     @IBAction func btnLeftBracket(_ sender: Any) {
-        
+        operation.text = operation.text! + "("
     }
     @IBAction func btnRightBracket(_ sender: Any) {
-        
+        operation.text = operation.text! + ")"
     }
     @IBAction func btnDivision(_ sender: Any) {
-        
+        operation.text = operation.text! + "/"
     }
     @IBAction func btnRoot(_ sender: Any) {
         
     }
     @IBAction func btnPercent(_ sender: Any) {
-        
+        operation.text = operation.text! + "%"
     }
     @IBAction func btnPlusMinus(_ sender: Any) {
         
     }
     @IBAction func btnMultiply(_ sender: Any) {
-        
+        operation.text = operation.text! + "*"
     }
     @IBAction func btn7(_ sender: Any) {
-        
+        operation.text = operation.text! + "7"
     }
     @IBAction func btn8(_ sender: Any) {
-        
+        operation.text = operation.text! + "8"
     }
     @IBAction func btn9(_ sender: Any) {
-        
+        operation.text = operation.text! + "9"
     }
     @IBAction func btnMinus(_ sender: Any) {
-        
+        operation.text = operation.text! + "-"
     }
     @IBAction func btn4(_ sender: Any) {
-        
+        operation.text = operation.text! + "4"
     }
     @IBAction func btn5(_ sender: Any) {
-        
+        operation.text = operation.text! + "5"
     }
     @IBAction func btn6(_ sender: Any) {
-        
+        operation.text = operation.text! + "6"
     }
     @IBAction func btnPlus(_ sender: Any) {
-        
+        operation.text = operation.text! + "+"
     }
     @IBAction func btn1(_ sender: Any) {
-        
+        operation.text = operation.text! + "1"
     }
     @IBAction func btn2(_ sender: Any) {
-        
+        operation.text = operation.text! + "2"
     }
     @IBAction func btn3(_ sender: Any) {
-        
+        operation.text = operation.text! + "3"
     }
     @IBAction func btn0(_ sender: Any) {
-        
+        operation.text = operation.text! + "0"
     }
     @IBAction func btnDot(_ sender: Any) {
-        
+        operation.text = operation.text! + "."
     }
     @IBAction func btnDel(_ sender: Any) {
-        
+//        operation.text = String(describing: operation.text?.characters.dropLast())
     }
     @IBAction func btnEqual(_ sender: Any) {
-        self.performSegue(withIdentifier: "segue_calc_simple_settings", sender: nil)
+        
     }
     
     override func viewDidLoad() {
