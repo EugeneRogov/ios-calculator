@@ -10,8 +10,8 @@ import UIKit
 
 class CalcVat: UIViewController {
     
-    @IBOutlet weak var tvRateOfVat: UILabel!
-    @IBOutlet weak var tvAmount: UILabel!
+//    @IBOutlet weak var tvRateOfVat: UILabel!
+//    @IBOutlet weak var tvAmount: UILabel!
     @IBOutlet weak var etRateOfVat: UITextField!
     @IBOutlet weak var etAmount: UITextField!
     
@@ -34,8 +34,8 @@ class CalcVat: UIViewController {
     }
     
     fileprivate func initViews() {
-        tvRateOfVat.text = NSLocalizedString("rate_of_vat", comment: "")
-        tvAmount.text = NSLocalizedString("amount", comment: "")
+//        tvRateOfVat.text = NSLocalizedString("rate_of_vat", comment: "")
+//        tvAmount.text = NSLocalizedString("amount", comment: "")
         
         tvAddVat.text = NSLocalizedString("add_vat", comment: "")
         tvAddSumVat.text = NSLocalizedString("sum_vat", comment: "")
@@ -48,6 +48,9 @@ class CalcVat: UIViewController {
         
         tvAddVat.text = tvAddVat.text?.uppercased()
         tvExcludeVat.text = tvExcludeVat.text?.uppercased()
+        
+        
+        etRateOfVat.placeholder = "dfdfdffd"
         
     }
     
