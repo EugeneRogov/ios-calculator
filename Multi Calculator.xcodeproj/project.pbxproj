@@ -24,6 +24,7 @@
 		44E423EF1F8E4B5600A5BF6E /* CalcPercent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E423EE1F8E4B5600A5BF6E /* CalcPercent.swift */; };
 		44E423F11F8E4BA200A5BF6E /* CalcLoan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E423F01F8E4BA200A5BF6E /* CalcLoan.swift */; };
 		44E423F31F8E4C2000A5BF6E /* CalcDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E423F21F8E4C2000A5BF6E /* CalcDate.swift */; };
+		44FD36D01F9A0F260065E61E /* CalcVatTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FD36CF1F9A0F260065E61E /* CalcVatTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		44E423EE1F8E4B5600A5BF6E /* CalcPercent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcPercent.swift; sourceTree = "<group>"; };
 		44E423F01F8E4BA200A5BF6E /* CalcLoan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcLoan.swift; sourceTree = "<group>"; };
 		44E423F21F8E4C2000A5BF6E /* CalcDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcDate.swift; sourceTree = "<group>"; };
+		44FD36CF1F9A0F260065E61E /* CalcVatTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcVatTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 		44E423EB1F8E49B400A5BF6E /* calc_vat */ = {
 			isa = PBXGroup;
 			children = (
+				44FD36CF1F9A0F260065E61E /* CalcVatTable.swift */,
 				44E423EC1F8E4A6700A5BF6E /* CalcVat.swift */,
 			);
 			path = calc_vat;
@@ -353,6 +356,7 @@
 				44DD99721F92BA6E00990C9D /* Settings.swift in Sources */,
 				445D05D61F95294E00ACF6D9 /* SettingsCalcSimple.swift in Sources */,
 				44E423F31F8E4C2000A5BF6E /* CalcDate.swift in Sources */,
+				44FD36D01F9A0F260065E61E /* CalcVatTable.swift in Sources */,
 				4414488F1F8F68B500AB5FB6 /* RateApp.swift in Sources */,
 				44E423EF1F8E4B5600A5BF6E /* CalcPercent.swift in Sources */,
 				44DD99701F92B9E500990C9D /* About.swift in Sources */,

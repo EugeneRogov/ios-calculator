@@ -10,8 +10,8 @@ import UIKit
 
 class CalcLoan: UIViewController {
     
-    @IBOutlet weak var btnAnnuity: UIButton!
-    @IBOutlet weak var btnDifferentiated: UIButton!
+//    @IBOutlet weak var btnAnnuity: UIButton!
+//    @IBOutlet weak var btnDifferentiated: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +20,8 @@ class CalcLoan: UIViewController {
     }
     
     fileprivate func initViews() {
-        btnAnnuity.setTitle(NSLocalizedString("calc_loan_annuity", comment: "").uppercased(), for: UIControlState.normal)
-        btnDifferentiated.setTitle(NSLocalizedString("calc_loan_differentiated", comment: "").uppercased(), for: UIControlState.normal)
+//        btnAnnuity.setTitle(NSLocalizedString("calc_loan_annuity", comment: "").uppercased(), for: UIControlState.normal)
+//        btnDifferentiated.setTitle(NSLocalizedString("calc_loan_differentiated", comment: "").uppercased(), for: UIControlState.normal)
         
     }
     
