@@ -382,14 +382,23 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLF-oM-XcV">
                                                         <rect key="frame" x="367" y="0.0" width="31" height="30"/>
                                                         <state key="normal" title="PRO"/>
+                                                        <connections>
+                                                            <action selector="btnPro:" destination="JQ1-d9-qnP" eventType="touchUpInside" id="kAJ-x1-bSp"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lV-rZ-dlX">
                                                         <rect key="frame" x="315" y="0.0" width="36" height="30"/>
                                                         <state key="normal" title="Send"/>
+                                                        <connections>
+                                                            <action selector="btnSend:" destination="JQ1-d9-qnP" eventType="touchUpInside" id="k3V-na-hE8"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHp-DH-OJ6">
                                                         <rect key="frame" x="263" y="0.0" width="36" height="30"/>
                                                         <state key="normal" title="Clear"/>
+                                                        <connections>
+                                                            <action selector="btnClear:" destination="JQ1-d9-qnP" eventType="touchUpInside" id="lrl-vR-wqW"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -450,7 +459,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wA2-mF-Kaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1269.5652173913045" y="108.42391304347827"/>
+            <point key="canvasLocation" x="1270" y="823"/>
         </scene>
         <!--Calc Percent Table-->
         <scene sceneID="6xV-UU-pjU">
@@ -713,15 +722,15 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="default" indentationWidth="10" id="2x6-aN-wju">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="2x6-aN-wju">
                                         <rect key="frame" x="0.0" y="707.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2x6-aN-wju" id="UTr-Oe-P35">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вычесть 20% из числа 20 = 16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AkT-c5-AC7">
-                                                    <rect key="frame" x="32" y="12" width="350" height="21"/>
+                                                    <rect key="frame" x="32" y="12" width="241" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
@@ -731,7 +740,7 @@
                                             <constraints>
                                                 <constraint firstItem="AkT-c5-AC7" firstAttribute="centerY" secondItem="UTr-Oe-P35" secondAttribute="centerY" id="Il7-88-8vm"/>
                                                 <constraint firstItem="AkT-c5-AC7" firstAttribute="leading" secondItem="UTr-Oe-P35" secondAttribute="leading" constant="32" id="Yec-EW-0Sq"/>
-                                                <constraint firstAttribute="trailing" secondItem="AkT-c5-AC7" secondAttribute="trailing" constant="32" id="dSW-wF-oAT"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AkT-c5-AC7" secondAttribute="trailing" id="dSW-wF-oAT"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -746,7 +755,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QH5-Ce-yRc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2021.7391304347827" y="108.42391304347827"/>
+            <point key="canvasLocation" x="2022" y="810"/>
         </scene>
         <!--Loan calculator-->
         <scene sceneID="hWV-xO-ngs">
@@ -760,15 +769,14 @@
                                 <rect key="frame" x="0.0" y="64" width="414" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgx-D4-kaj">
-                                        <rect key="frame" x="367" y="0.0" width="31" height="30"/>
-                                        <state key="normal" title="PRO"/>
+                                        <rect key="frame" x="368" y="0.0" width="30" height="30"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osv-1K-syb">
-                                        <rect key="frame" x="315" y="0.0" width="36" height="30"/>
+                                        <rect key="frame" x="316" y="0.0" width="36" height="30"/>
                                         <state key="normal" title="Send"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXr-PW-sIP">
-                                        <rect key="frame" x="262" y="0.0" width="37" height="30"/>
+                                        <rect key="frame" x="263" y="0.0" width="37" height="30"/>
                                         <state key="normal" title="Table"/>
                                     </button>
                                 </subviews>
@@ -818,10 +826,10 @@
             </objects>
             <point key="canvasLocation" x="1269.5652173913045" y="1541.5760869565217"/>
         </scene>
-        <!--Settings Calc Simple-->
+        <!--Settings-->
         <scene sceneID="SyU-3i-iTg">
             <objects>
-                <tableViewController id="Ms4-eG-Hfa" customClass="SettingsCalcSimple" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Settings" id="Ms4-eG-Hfa" customClass="SettingsCalcSimple" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ePC-GG-q82">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -866,10 +874,10 @@
             </objects>
             <point key="canvasLocation" x="2022" y="-1325"/>
         </scene>
-        <!--View Controller-->
+        <!--History-->
         <scene sceneID="JEF-zc-kyf">
             <objects>
-                <viewController id="SUL-vN-2mX" sceneMemberID="viewController">
+                <viewController title="History" id="SUL-vN-2mX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ds9-BL-J6Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1342,18 +1350,30 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlV-Zr-sIO">
                                         <rect key="frame" x="367" y="0.0" width="31" height="30"/>
                                         <state key="normal" title="PRO"/>
+                                        <connections>
+                                            <action selector="btnPro:" destination="GLZ-cD-vdL" eventType="touchUpInside" id="05q-Lg-8sM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pi3-Fw-b6t">
                                         <rect key="frame" x="315" y="0.0" width="36" height="30"/>
                                         <state key="normal" title="Send"/>
+                                        <connections>
+                                            <action selector="btnSend:" destination="GLZ-cD-vdL" eventType="touchUpInside" id="LzN-54-cqe"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHM-7P-UNO">
                                         <rect key="frame" x="249" y="0.0" width="50" height="30"/>
                                         <state key="normal" title="History"/>
+                                        <connections>
+                                            <action selector="btnHistory:" destination="GLZ-cD-vdL" eventType="touchUpInside" id="lFH-Db-QK9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVT-od-l9u">
                                         <rect key="frame" x="176" y="0.0" width="57" height="30"/>
                                         <state key="normal" title="Settings"/>
+                                        <connections>
+                                            <action selector="btnSettings:" destination="GLZ-cD-vdL" eventType="touchUpInside" id="w32-iy-ONK"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1440,10 +1460,10 @@
             </objects>
             <point key="canvasLocation" x="-317" y="-1326"/>
         </scene>
-        <!--Calc Vat-->
+        <!--VAT calculator-->
         <scene sceneID="jHI-0F-1gE">
             <objects>
-                <viewController id="fFi-2T-a4C" customClass="CalcVat" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="VAT calculator" id="fFi-2T-a4C" customClass="CalcVat" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bcL-PC-g3H">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1454,14 +1474,23 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FA0-9C-za8">
                                         <rect key="frame" x="367" y="0.0" width="31" height="30"/>
                                         <state key="normal" title="PRO"/>
+                                        <connections>
+                                            <action selector="btnPro:" destination="fFi-2T-a4C" eventType="touchUpInside" id="fwT-0U-qzN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRC-28-XM8">
                                         <rect key="frame" x="315" y="0.0" width="36" height="30"/>
                                         <state key="normal" title="Send"/>
+                                        <connections>
+                                            <action selector="btnSend:" destination="fFi-2T-a4C" eventType="touchUpInside" id="9vp-Df-mh6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtP-Ir-Jub">
                                         <rect key="frame" x="263" y="0.0" width="36" height="30"/>
                                         <state key="normal" title="Clear"/>
+                                        <connections>
+                                            <action selector="btnClear:" destination="fFi-2T-a4C" eventType="touchUpInside" id="tx4-ft-XSa"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1497,6 +1526,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hKC-60-Tiu"/>
                     </view>
+                    <connections>
+                        <outlet property="btnPro" destination="FA0-9C-za8" id="FwJ-Z7-yAD"/>
+                        <segue destination="Byo-4D-9Yr" kind="show" identifier="segue_update_from_calc_vat" id="Keo-cM-gsw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asO-E6-jLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1727,14 +1760,23 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ore-vZ-89p">
                                         <rect key="frame" x="367" y="0.0" width="31" height="30"/>
                                         <state key="normal" title="PRO"/>
+                                        <connections>
+                                            <action selector="btnPro:" destination="rcF-5a-BHL" eventType="touchUpInside" id="wSR-zq-JYs"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MwT-fS-BOP">
                                         <rect key="frame" x="315" y="0.0" width="36" height="30"/>
                                         <state key="normal" title="Send"/>
+                                        <connections>
+                                            <action selector="btnSend:" destination="rcF-5a-BHL" eventType="touchUpInside" id="jXB-Un-qea"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rz2-EX-mpI">
                                         <rect key="frame" x="263" y="0.0" width="36" height="30"/>
                                         <state key="normal" title="Clear"/>
+                                        <connections>
+                                            <action selector="btnClear:" destination="rcF-5a-BHL" eventType="touchUpInside" id="K9f-ZF-VjV"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1782,7 +1824,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vW-C0-Ol0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1269.5652173913045" y="822.554347826087"/>
+            <point key="canvasLocation" x="1270" y="109"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iLb-DZ-zkN">
@@ -1814,7 +1856,7 @@
         <image name="icon" width="76" height="76"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UQy-M8-WHv"/>
+        <segue reference="Keo-cM-gsw"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>

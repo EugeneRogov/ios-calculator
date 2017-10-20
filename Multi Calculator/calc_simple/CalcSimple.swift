@@ -10,7 +10,6 @@ import UIKit
 
 class CalcSimple: UIViewController {
     
-    @IBOutlet weak var iconPro: UIImageView!
     
     @IBOutlet weak var btnMc: UIButton!
     @IBOutlet weak var btnMminus: UIButton!
@@ -42,6 +41,24 @@ class CalcSimple: UIViewController {
     
     @IBOutlet weak var operation: UILabel!
     @IBOutlet weak var result: UILabel!
+    
+    
+    @IBAction func btnSettings(_ sender: UIButton) {
+        self.performSegue(withIdentifier: Constant.SEGUE_CALC_SIMPLE_SETTINGS, sender: nil)
+    }
+    @IBAction func btnHistory(_ sender: UIButton) {
+        self.performSegue(withIdentifier: Constant.SEGUE_CALC_SIMPLE_HISTORY, sender: nil)
+    }
+    
+    @IBAction func btnSend(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func btnPro(_ sender: UIButton) {
+        self.performSegue(withIdentifier: Constant.SEGUE_UPDATE_FROM_CALC_SIMPLE, sender: nil)
+    }
+    
+    
     
     
     @IBAction func btnMc(_ sender: Any) {
@@ -138,13 +155,13 @@ class CalcSimple: UIViewController {
     
     @objc func openSettings(_ sender: UIGestureRecognizer) {
         if sender.state == .began {
-            self.performSegue(withIdentifier: "segue_calc_simple_settings", sender: nil)
+            self.performSegue(withIdentifier: Constant.SEGUE_CALC_SIMPLE_SETTINGS, sender: nil)
         }
     }
     
     @objc func openHistory(_ sender: UIGestureRecognizer) {
         if sender.state == .began {
-            self.performSegue(withIdentifier: "segue_calc_simple_history", sender: nil)
+            self.performSegue(withIdentifier: Constant.SEGUE_CALC_SIMPLE_HISTORY, sender: nil)
         }
     }
     

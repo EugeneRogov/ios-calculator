@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4406F7B31F9A9A2C00357BEB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406F7B21F9A9A2C00357BEB /* Constant.swift */; };
 		4414488F1F8F68B500AB5FB6 /* RateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414488E1F8F68B500AB5FB6 /* RateApp.swift */; };
 		4446C4751F9A2B23007E48A6 /* CalcPercentTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446C4741F9A2B23007E48A6 /* CalcPercentTable.swift */; };
 		445D05D61F95294E00ACF6D9 /* SettingsCalcSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D05D51F95294E00ACF6D9 /* SettingsCalcSimple.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4406F7B21F9A9A2C00357BEB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		4414488E1F8F68B500AB5FB6 /* RateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateApp.swift; sourceTree = "<group>"; };
 		442993D31F8FC410005F45C2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		442993D41F8FC410005F45C2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				44AEE0211F8E248D003D4832 /* NavMenu.swift */,
 				4414488E1F8F68B500AB5FB6 /* RateApp.swift */,
 				44DD99711F92BA6E00990C9D /* Settings.swift */,
+				4406F7B21F9A9A2C00357BEB /* Constant.swift */,
 				44AEE0231F8E248D003D4832 /* Main.storyboard */,
 				44AEE0261F8E248D003D4832 /* Assets.xcassets */,
 				44AEE0281F8E248D003D4832 /* LaunchScreen.storyboard */,
@@ -359,6 +362,7 @@
 				44DD99721F92BA6E00990C9D /* Settings.swift in Sources */,
 				445D05D61F95294E00ACF6D9 /* SettingsCalcSimple.swift in Sources */,
 				44E423F31F8E4C2000A5BF6E /* CalcDate.swift in Sources */,
+				4406F7B31F9A9A2C00357BEB /* Constant.swift in Sources */,
 				44FD36D01F9A0F260065E61E /* CalcVatTable.swift in Sources */,
 				4414488F1F8F68B500AB5FB6 /* RateApp.swift in Sources */,
 				44E423EF1F8E4B5600A5BF6E /* CalcPercent.swift in Sources */,
