@@ -10,10 +10,8 @@ import UIKit
 
 class CalcVatTable: UITableViewController {
 
-    
     @IBOutlet weak var etRateOfVat: UITextField!
     @IBOutlet weak var etAmount: UITextField!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

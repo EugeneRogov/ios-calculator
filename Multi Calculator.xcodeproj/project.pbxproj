@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4414488F1F8F68B500AB5FB6 /* RateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414488E1F8F68B500AB5FB6 /* RateApp.swift */; };
+		4446C4751F9A2B23007E48A6 /* CalcPercentTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446C4741F9A2B23007E48A6 /* CalcPercentTable.swift */; };
 		445D05D61F95294E00ACF6D9 /* SettingsCalcSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D05D51F95294E00ACF6D9 /* SettingsCalcSimple.swift */; };
 		44AEE0201F8E248D003D4832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE01F1F8E248D003D4832 /* AppDelegate.swift */; };
 		44AEE0221F8E248D003D4832 /* NavMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE0211F8E248D003D4832 /* NavMenu.swift */; };
@@ -55,6 +56,7 @@
 		442993D91F8FC431005F45C2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		442993DA1F8FC431005F45C2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		442993DB1F8FC431005F45C2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4446C4741F9A2B23007E48A6 /* CalcPercentTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcPercentTable.swift; sourceTree = "<group>"; };
 		445D05D51F95294E00ACF6D9 /* SettingsCalcSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCalcSimple.swift; sourceTree = "<group>"; };
 		44AEE01C1F8E248D003D4832 /* Multi Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AEE01F1F8E248D003D4832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		44E423EA1F8E499900A5BF6E /* calc_percent */ = {
 			isa = PBXGroup;
 			children = (
+				4446C4741F9A2B23007E48A6 /* CalcPercentTable.swift */,
 				44E423EE1F8E4B5600A5BF6E /* CalcPercent.swift */,
 			);
 			path = calc_percent;
@@ -360,6 +363,7 @@
 				4414488F1F8F68B500AB5FB6 /* RateApp.swift in Sources */,
 				44E423EF1F8E4B5600A5BF6E /* CalcPercent.swift in Sources */,
 				44DD99701F92B9E500990C9D /* About.swift in Sources */,
+				4446C4751F9A2B23007E48A6 /* CalcPercentTable.swift in Sources */,
 				44AEE0201F8E248D003D4832 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
