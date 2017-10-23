@@ -10,19 +10,15 @@ import UIKit
 
 class CalcLoan: UIViewController {
     
-    // Fields ==========================================================
     @IBOutlet weak var btnTable: UIButton!
     @IBOutlet weak var btnSend: UIButton!
-    // Fields ==========================================================
     
-    // Click listeners =================================================
     @IBAction func btnTable(_ sender: UIButton) {
         
     }
     @IBAction func btnSend(_ sender: UIButton) {
         
     }
-    // Click listeners =================================================
     
     override func viewDidLoad() {
         super.viewDidLoad()

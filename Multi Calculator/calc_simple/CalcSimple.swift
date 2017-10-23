@@ -124,22 +124,24 @@ class CalcSimple: UIViewController {
     @IBAction func btn1(_ sender: Any) {
         operation.text = operation.text! + "1"
     }
-    @IBAction func btn2(_ sender: Any) {
+    @IBAction func btn2(_ sender: UIButton) {
         operation.text = operation.text! + "2"
     }
-    @IBAction func btn3(_ sender: Any) {
+    @IBAction func btn3(_ sender: UIButton) {
         operation.text = operation.text! + "3"
     }
-    @IBAction func btn0(_ sender: Any) {
+    @IBAction func btn0(_ sender: UIButton) {
         operation.text = operation.text! + "0"
     }
-    @IBAction func btnDot(_ sender: Any) {
+    @IBAction func btnDot(_ sender: UIButton) {
         operation.text = operation.text! + "."
     }
-//    @IBAction func btnDel(_ sender: Any) {
-////        operation.text = String(describing: operation.text?.characters.dropLast())
-//    }
-    @IBAction func btnEqual(_ sender: Any) {
+
+    @IBAction func btnDel(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func btnEqual(_ sender: UIButton) {
         
     }
     

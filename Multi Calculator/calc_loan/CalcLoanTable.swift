@@ -10,9 +10,6 @@ import UIKit
 
 class CalcLoanTable: UITableViewController {
     
-    //    @IBOutlet weak var btnAnnuity: UIButton!
-    //    @IBOutlet weak var btnDifferentiated: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
@@ -20,8 +17,6 @@ class CalcLoanTable: UITableViewController {
     }
     
     fileprivate func initViews() {
-        //        btnAnnuity.setTitle(NSLocalizedString("calc_loan_annuity", comment: "").uppercased(), for: UIControlState.normal)
-        //        btnDifferentiated.setTitle(NSLocalizedString("calc_loan_differentiated", comment: "").uppercased(), for: UIControlState.normal)
         
     }
     
