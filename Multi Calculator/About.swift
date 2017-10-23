@@ -42,7 +42,6 @@ class About: UIViewController, MFMailComposeViewControllerDelegate {
         mailComposerVC.mailComposeDelegate = self
         mailComposerVC.setToRecipients(["xdpilab@gmail.com"])
         mailComposerVC.setSubject("Debug info, Calculator")
-//        mailComposerVC.setMessageBody("How are you", isHTML: false)
         
         return mailComposerVC
     }

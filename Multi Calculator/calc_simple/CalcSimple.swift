@@ -136,9 +136,9 @@ class CalcSimple: UIViewController {
     @IBAction func btnDot(_ sender: Any) {
         operation.text = operation.text! + "."
     }
-    @IBAction func btnDel(_ sender: Any) {
-//        operation.text = String(describing: operation.text?.characters.dropLast())
-    }
+//    @IBAction func btnDel(_ sender: Any) {
+////        operation.text = String(describing: operation.text?.characters.dropLast())
+//    }
     @IBAction func btnEqual(_ sender: Any) {
         
     }
