@@ -432,6 +432,7 @@
                                                         <state key="normal" title="PRO"/>
                                                         <connections>
                                                             <action selector="btnPro:" destination="JQ1-d9-qnP" eventType="touchUpInside" id="O75-mT-LpA"/>
+                                                            <segue destination="4Os-QM-cIY" kind="show" id="mSJ-AA-Ova"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lV-rZ-dlX">
@@ -501,9 +502,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WYV-Rv-4mU"/>
                     </view>
-                    <connections>
-                        <segue destination="Byo-4D-9Yr" kind="show" identifier="segue_update_from_calc_percent" id="Cnm-Wp-2OE"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wA2-mF-Kaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1302,6 +1300,7 @@
                                         <state key="normal" title="PRO"/>
                                         <connections>
                                             <action selector="btnPro:" destination="GLZ-cD-vdL" eventType="touchUpInside" id="05q-Lg-8sM"/>
+                                            <segue destination="4Os-QM-cIY" kind="show" id="j8c-oD-t5h"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pi3-Fw-b6t">
@@ -1841,27 +1840,126 @@
                         <outlet property="result" destination="4dp-3o-qfQ" id="TAd-R3-GQx"/>
                         <segue destination="Ms4-eG-Hfa" kind="show" identifier="segue_calc_simple_settings" id="Qtj-My-1Vu"/>
                         <segue destination="SUL-vN-2mX" kind="show" identifier="segue_calc_simple_history" id="et9-WN-6e4"/>
-                        <segue destination="Byo-4D-9Yr" kind="show" identifier="segue_update_from_calc_simple" id="eMG-jP-v94"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jN4-sh-ffO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1269.5652173913045" y="-1324.7282608695652"/>
         </scene>
-        <!--Update-->
-        <scene sceneID="M1n-SO-HL2">
+        <!--Table View Controller-->
+        <scene sceneID="KuT-3o-X8p">
             <objects>
-                <viewController title="Update" id="Byo-4D-9Yr" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="goS-D5-Zfp">
+                <tableViewController id="4Os-QM-cIY" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="6x9-hY-JCv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="WVN-bk-gh5"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6Bu-uE-RO1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Easily work. Without advertising" id="qZP-ja-SDc">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="oH6-p3-rG7">
+                                        <rect key="frame" x="0.0" y="55.333333333333336" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oH6-p3-rG7" id="Weo-nT-InA">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="G5v-Uo-FzC">
+                                        <rect key="frame" x="0.0" y="99.333333333333343" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G5v-Uo-FzC" id="xX9-oX-1Ya">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="YeP-oH-h03">
+                                        <rect key="frame" x="0.0" y="143.33333333333334" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YeP-oH-h03" id="1ZM-IS-aIt">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="rW0-vi-QDH">
+                                        <rect key="frame" x="0.0" y="187.33333333333334" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rW0-vi-QDH" id="3za-ef-Nbf">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="I3j-kA-GUN">
+                                        <rect key="frame" x="0.0" y="231.33333333333334" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="I3j-kA-GUN" id="zzE-Rh-FrY">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWC-Xf-Tyl">
+                                                    <rect key="frame" x="8" y="7" width="398" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Further"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Comparison of functions" id="f48-xH-6e3">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="FAO-fZ-Mkc">
+                                        <rect key="frame" x="0.0" y="331.33333333333337" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FAO-fZ-Mkc" id="swZ-mC-aP0">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="A5A-MV-I9t">
+                                        <rect key="frame" x="0.0" y="375.33333333333337" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A5A-MV-I9t" id="67e-7T-DBb">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="6pY-b9-fEh">
+                                        <rect key="frame" x="0.0" y="419.33333333333337" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6pY-b9-fEh" id="0Z1-hr-yJY">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="Y62-2t-9kd">
+                                        <rect key="frame" x="0.0" y="463.33333333333337" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y62-2t-9kd" id="Iem-hb-hPh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="pwy-mX-JmN">
+                                        <rect key="frame" x="0.0" y="507.33333333333337" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pwy-mX-JmN" id="TOH-eJ-BX6">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="4Os-QM-cIY" id="C6P-EK-z7E"/>
+                            <outlet property="delegate" destination="4Os-QM-cIY" id="4wM-W7-dnG"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xiH-Rr-3Rh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-317" y="-1326"/>
+            <point key="canvasLocation" x="-317.39130434782612" y="-1325.5434782608697"/>
         </scene>
         <!--VAT calculator-->
         <scene sceneID="jHI-0F-1gE">
@@ -1879,6 +1977,7 @@
                                         <state key="normal" title="PRO"/>
                                         <connections>
                                             <action selector="btnPro:" destination="fFi-2T-a4C" eventType="touchUpInside" id="fwT-0U-qzN"/>
+                                            <segue destination="4Os-QM-cIY" kind="show" id="KPq-xZ-Qjg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRC-28-XM8">
@@ -1932,7 +2031,6 @@
                     </view>
                     <connections>
                         <outlet property="btnPro" destination="FA0-9C-za8" id="FwJ-Z7-yAD"/>
-                        <segue destination="Byo-4D-9Yr" kind="show" identifier="segue_update_from_calc_vat" id="Keo-cM-gsw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asO-E6-jLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2179,6 +2277,7 @@
                                         <state key="normal" title="PRO"/>
                                         <connections>
                                             <action selector="btnPro:" destination="rcF-5a-BHL" eventType="touchUpInside" id="wSR-zq-JYs"/>
+                                            <segue destination="4Os-QM-cIY" kind="show" id="oTX-aF-qcV"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MwT-fS-BOP">
@@ -2229,9 +2328,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8PQ-hc-1de"/>
                     </view>
-                    <connections>
-                        <segue destination="Byo-4D-9Yr" kind="show" identifier="segue_update_from_calc_date" id="UQy-M8-WHv"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vW-C0-Ol0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2315,7 +2411,7 @@
         <image name="icon" width="76" height="76"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UQy-M8-WHv"/>
+        <segue reference="mSJ-AA-Ova"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>

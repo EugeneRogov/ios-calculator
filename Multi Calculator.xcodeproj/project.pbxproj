@@ -10,6 +10,7 @@
 		4406F7B31F9A9A2C00357BEB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406F7B21F9A9A2C00357BEB /* Constant.swift */; };
 		4414488F1F8F68B500AB5FB6 /* RateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414488E1F8F68B500AB5FB6 /* RateApp.swift */; };
 		4446C4751F9A2B23007E48A6 /* CalcPercentTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446C4741F9A2B23007E48A6 /* CalcPercentTable.swift */; };
+		445C92C01F9F15BB00F16A72 /* InAppList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C92BF1F9F15BB00F16A72 /* InAppList.swift */; };
 		445D05D61F95294E00ACF6D9 /* SettingsCalcSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D05D51F95294E00ACF6D9 /* SettingsCalcSimple.swift */; };
 		4481E5CB1F9DEFFC001FBE58 /* CalcLoanTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481E5CA1F9DEFFC001FBE58 /* CalcLoanTable.swift */; };
 		44AEE0201F8E248D003D4832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE01F1F8E248D003D4832 /* AppDelegate.swift */; };
@@ -60,6 +61,7 @@
 		442993DA1F8FC431005F45C2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		442993DB1F8FC431005F45C2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4446C4741F9A2B23007E48A6 /* CalcPercentTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcPercentTable.swift; sourceTree = "<group>"; };
+		445C92BF1F9F15BB00F16A72 /* InAppList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppList.swift; sourceTree = "<group>"; };
 		445D05D51F95294E00ACF6D9 /* SettingsCalcSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCalcSimple.swift; sourceTree = "<group>"; };
 		4481E5CA1F9DEFFC001FBE58 /* CalcLoanTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcLoanTable.swift; sourceTree = "<group>"; };
 		44AEE01C1F8E248D003D4832 /* Multi Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		445C92BE1F9F153300F16A72 /* in_app_purchase */ = {
+			isa = PBXGroup;
+			children = (
+				445C92BF1F9F15BB00F16A72 /* InAppList.swift */,
+			);
+			path = in_app_purchase;
+			sourceTree = "<group>";
+		};
 		44AEE0131F8E248D003D4832 = {
 			isa = PBXGroup;
 			children = (
@@ -138,11 +148,12 @@
 		44AEE01E1F8E248D003D4832 /* Multi Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				445C92BE1F9F153300F16A72 /* in_app_purchase */,
+				44E423E51F8E47B200A5BF6E /* calc_simple */,
 				44E423EB1F8E49B400A5BF6E /* calc_vat */,
+				44E423E81F8E496000A5BF6E /* calc_date */,
 				44E423EA1F8E499900A5BF6E /* calc_percent */,
 				44E423E91F8E497000A5BF6E /* calc_loan */,
-				44E423E81F8E496000A5BF6E /* calc_date */,
-				44E423E51F8E47B200A5BF6E /* calc_simple */,
 				44AEE01F1F8E248D003D4832 /* AppDelegate.swift */,
 				44DD996F1F92B9E500990C9D /* About.swift */,
 				44AEE0211F8E248D003D4832 /* NavMenu.swift */,
@@ -205,8 +216,8 @@
 		44E423EA1F8E499900A5BF6E /* calc_percent */ = {
 			isa = PBXGroup;
 			children = (
-				4446C4741F9A2B23007E48A6 /* CalcPercentTable.swift */,
 				44E423EE1F8E4B5600A5BF6E /* CalcPercent.swift */,
+				4446C4741F9A2B23007E48A6 /* CalcPercentTable.swift */,
 			);
 			path = calc_percent;
 			sourceTree = "<group>";
@@ -214,8 +225,8 @@
 		44E423EB1F8E49B400A5BF6E /* calc_vat */ = {
 			isa = PBXGroup;
 			children = (
-				44FD36CF1F9A0F260065E61E /* CalcVatTable.swift */,
 				44E423EC1F8E4A6700A5BF6E /* CalcVat.swift */,
+				44FD36CF1F9A0F260065E61E /* CalcVatTable.swift */,
 			);
 			path = calc_vat;
 			sourceTree = "<group>";
@@ -372,6 +383,7 @@
 				4481E5CB1F9DEFFC001FBE58 /* CalcLoanTable.swift in Sources */,
 				44DD99701F92B9E500990C9D /* About.swift in Sources */,
 				4446C4751F9A2B23007E48A6 /* CalcPercentTable.swift in Sources */,
+				445C92C01F9F15BB00F16A72 /* InAppList.swift in Sources */,
 				44AEE0201F8E248D003D4832 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,7 +20,7 @@ class CalcVat: UIViewController {
         
     }
     @IBAction func btnPro(_ sender: UIButton) {
-        self.performSegue(withIdentifier: Constant.SEGUE_UPDATE_FROM_CALC_VAT, sender: nil)
+//        self.performSegue(withIdentifier: Constant.SEGUE_UPDATE_FROM_CALC_VAT, sender: nil)
     }
     
     override func viewDidLoad() {

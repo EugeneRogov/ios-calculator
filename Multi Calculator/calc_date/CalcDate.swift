@@ -17,7 +17,7 @@ class CalcDate: UIViewController {
         
     }
     @IBAction func btnPro(_ sender: UIButton) {
-        self.performSegue(withIdentifier: Constant.SEGUE_UPDATE_FROM_CALC_DATE, sender: nil)
+//        self.performSegue(withIdentifier: Constant.SEGUE_UPDATE_FROM_CALC_DATE, sender: nil)
     }
     
     override func viewDidLoad() {
