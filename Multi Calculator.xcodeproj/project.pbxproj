@@ -11,7 +11,8 @@
 		4414488F1F8F68B500AB5FB6 /* RateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414488E1F8F68B500AB5FB6 /* RateApp.swift */; };
 		4446C4751F9A2B23007E48A6 /* CalcPercentTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446C4741F9A2B23007E48A6 /* CalcPercentTable.swift */; };
 		445C92C01F9F15BB00F16A72 /* InAppList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C92BF1F9F15BB00F16A72 /* InAppList.swift */; };
-		445D05D61F95294E00ACF6D9 /* SettingsCalcSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D05D51F95294E00ACF6D9 /* SettingsCalcSimple.swift */; };
+		445C92C21F9F27ED00F16A72 /* CalcSimpleHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C92C11F9F27ED00F16A72 /* CalcSimpleHistory.swift */; };
+		445D05D61F95294E00ACF6D9 /* CalcSimpleSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D05D51F95294E00ACF6D9 /* CalcSimpleSettings.swift */; };
 		4481E5CB1F9DEFFC001FBE58 /* CalcLoanTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481E5CA1F9DEFFC001FBE58 /* CalcLoanTable.swift */; };
 		44AEE0201F8E248D003D4832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE01F1F8E248D003D4832 /* AppDelegate.swift */; };
 		44AEE0221F8E248D003D4832 /* NavMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE0211F8E248D003D4832 /* NavMenu.swift */; };
@@ -62,7 +63,8 @@
 		442993DB1F8FC431005F45C2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4446C4741F9A2B23007E48A6 /* CalcPercentTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcPercentTable.swift; sourceTree = "<group>"; };
 		445C92BF1F9F15BB00F16A72 /* InAppList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppList.swift; sourceTree = "<group>"; };
-		445D05D51F95294E00ACF6D9 /* SettingsCalcSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCalcSimple.swift; sourceTree = "<group>"; };
+		445C92C11F9F27ED00F16A72 /* CalcSimpleHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcSimpleHistory.swift; sourceTree = "<group>"; };
+		445D05D51F95294E00ACF6D9 /* CalcSimpleSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcSimpleSettings.swift; sourceTree = "<group>"; };
 		4481E5CA1F9DEFFC001FBE58 /* CalcLoanTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcLoanTable.swift; sourceTree = "<group>"; };
 		44AEE01C1F8E248D003D4832 /* Multi Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AEE01F1F8E248D003D4832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -191,7 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				44E423E61F8E480400A5BF6E /* CalcSimple.swift */,
-				445D05D51F95294E00ACF6D9 /* SettingsCalcSimple.swift */,
+				445D05D51F95294E00ACF6D9 /* CalcSimpleSettings.swift */,
+				445C92C11F9F27ED00F16A72 /* CalcSimpleHistory.swift */,
 			);
 			path = calc_simple;
 			sourceTree = "<group>";
@@ -374,7 +377,7 @@
 				44E423F11F8E4BA200A5BF6E /* CalcLoan.swift in Sources */,
 				44E423ED1F8E4A6700A5BF6E /* CalcVat.swift in Sources */,
 				44DD99721F92BA6E00990C9D /* Settings.swift in Sources */,
-				445D05D61F95294E00ACF6D9 /* SettingsCalcSimple.swift in Sources */,
+				445D05D61F95294E00ACF6D9 /* CalcSimpleSettings.swift in Sources */,
 				44E423F31F8E4C2000A5BF6E /* CalcDate.swift in Sources */,
 				4406F7B31F9A9A2C00357BEB /* Constant.swift in Sources */,
 				44FD36D01F9A0F260065E61E /* CalcVatTable.swift in Sources */,
@@ -385,6 +388,7 @@
 				4446C4751F9A2B23007E48A6 /* CalcPercentTable.swift in Sources */,
 				445C92C01F9F15BB00F16A72 /* InAppList.swift in Sources */,
 				44AEE0201F8E248D003D4832 /* AppDelegate.swift in Sources */,
+				445C92C21F9F27ED00F16A72 /* CalcSimpleHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
