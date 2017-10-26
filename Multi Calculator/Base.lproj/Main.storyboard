@@ -2687,10 +2687,10 @@
             </objects>
             <point key="canvasLocation" x="1269.5652173913045" y="108.42391304347827"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Calc Date Table-->
         <scene sceneID="0Hj-Xf-hgy">
             <objects>
-                <tableViewController id="WHU-mM-ign" sceneMemberID="viewController">
+                <tableViewController id="WHU-mM-ign" customClass="CalcDateTable" customModule="Multi_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="vjv-Cu-aNb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="642"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2909,11 +2909,11 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="YWF-x1-pIT">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="none" indentationWidth="10" id="YWF-x1-pIT">
                                         <rect key="frame" x="0.0" y="675.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YWF-x1-pIT" id="uIg-hd-KiT">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qV0-Qq-vd4">
@@ -2942,11 +2942,11 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="ryA-Ai-CGd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="none" indentationWidth="10" id="ryA-Ai-CGd">
                                         <rect key="frame" x="0.0" y="719.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ryA-Ai-CGd" id="BoK-Hb-8Xj">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seconds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Alf-E0-v63">
@@ -2983,6 +2983,22 @@
                             <outlet property="delegate" destination="WHU-mM-ign" id="5dq-sM-RnY"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="tvDays" destination="0jG-Yr-FSx" id="WFp-we-gze"/>
+                        <outlet property="tvDaysResult" destination="bZP-e0-diO" id="2b6-Px-YDe"/>
+                        <outlet property="tvHours" destination="gM7-BY-j23" id="eWO-XL-d24"/>
+                        <outlet property="tvHoursResult" destination="Rih-MT-OSc" id="X4D-Un-5z4"/>
+                        <outlet property="tvMinutes" destination="qV0-Qq-vd4" id="sZF-kC-qrT"/>
+                        <outlet property="tvMinutesResult" destination="BZd-Lv-Iv5" id="xTC-dV-aAb"/>
+                        <outlet property="tvMonths" destination="wNe-Db-nah" id="RQG-Ry-ULf"/>
+                        <outlet property="tvMonthsResult" destination="Iho-pS-77A" id="mOC-sC-tmH"/>
+                        <outlet property="tvSeconds" destination="Alf-E0-v63" id="Yas-oL-9sd"/>
+                        <outlet property="tvSecondsResult" destination="eUb-PB-jw1" id="A1G-Ss-Fiw"/>
+                        <outlet property="tvWeeks" destination="Okl-75-G2k" id="ul6-SO-coM"/>
+                        <outlet property="tvWeeksResult" destination="9r7-eV-Fgj" id="7q4-ec-knf"/>
+                        <outlet property="tvYears" destination="Zkh-SK-Mbv" id="Hzy-PK-DPR"/>
+                        <outlet property="tvYearsResult" destination="Kqt-fR-jas" id="gbo-f4-PEy"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jVJ-Te-WN1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3018,7 +3034,7 @@
         <image name="icon" width="76" height="76"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mSJ-AA-Ova"/>
+        <segue reference="Y63-Xj-8gk"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>

@@ -32,7 +32,14 @@ class CalcVatTable: UITableViewController {
     }
     
     fileprivate func initViews() {
-
+        tvRateOfVat.text = NSLocalizedString("rate_of_vat", comment: "")
+        tvAmount.text = NSLocalizedString("amount", comment: "")
+        
+        tvAddSumVat.text = NSLocalizedString("sum_vat", comment: "")
+        tvAddSumWithVat.text = NSLocalizedString("sum_with_vat", comment: "")
+        
+        tvExcludeSumVat.text = NSLocalizedString("sum_vat", comment: "")
+        tvExcludeSumWithoutVat.text = NSLocalizedString("sum_without_vat", comment: "")
         
     }
     

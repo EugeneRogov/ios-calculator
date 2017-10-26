@@ -22,6 +22,7 @@
 		44AEE0351F8E248D003D4832 /* Multi_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE0341F8E248D003D4832 /* Multi_CalculatorTests.swift */; };
 		44AEE0401F8E248D003D4832 /* Multi_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE03F1F8E248D003D4832 /* Multi_CalculatorUITests.swift */; };
 		44AEE0531F8E2568003D4832 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44AEE0551F8E2568003D4832 /* Localizable.strings */; };
+		44DBBD3C1FA25E47006C9A45 /* CalcDateTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBBD3B1FA25E47006C9A45 /* CalcDateTable.swift */; };
 		44DD99701F92B9E500990C9D /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD996F1F92B9E500990C9D /* About.swift */; };
 		44DD99721F92BA6E00990C9D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD99711F92BA6E00990C9D /* Settings.swift */; };
 		44E423E71F8E480400A5BF6E /* CalcSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E423E61F8E480400A5BF6E /* CalcSimple.swift */; };
@@ -84,6 +85,7 @@
 		44AEE0521F8E253F003D4832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		44AEE0541F8E2568003D4832 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		44AEE0561F8E256D003D4832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		44DBBD3B1FA25E47006C9A45 /* CalcDateTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcDateTable.swift; sourceTree = "<group>"; };
 		44DD996F1F92B9E500990C9D /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		44DD99711F92BA6E00990C9D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		44E423E61F8E480400A5BF6E /* CalcSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcSimple.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				44E423F21F8E4C2000A5BF6E /* CalcDate.swift */,
+				44DBBD3B1FA25E47006C9A45 /* CalcDateTable.swift */,
 			);
 			path = calc_date;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				445C92C01F9F15BB00F16A72 /* InAppList.swift in Sources */,
 				44AEE0201F8E248D003D4832 /* AppDelegate.swift in Sources */,
 				445C92C21F9F27ED00F16A72 /* CalcSimpleHistory.swift in Sources */,
+				44DBBD3C1FA25E47006C9A45 /* CalcDateTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
