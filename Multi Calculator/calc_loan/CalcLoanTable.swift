@@ -31,6 +31,8 @@ class CalcLoanTable: UITableViewController {
     }
     
     fileprivate func initViews() {
+        typeOfCredit.setTitle(NSLocalizedString("calc_loan_annuity", comment: ""), forSegmentAt: 0)
+        typeOfCredit.setTitle(NSLocalizedString("calc_loan_differentiated", comment: ""), forSegmentAt: 1)
         tvSum.text = NSLocalizedString("calc_loan_sum", comment: "")
         tvTerm.text = NSLocalizedString("calc_loan_term", comment: "")
         tvRate.text = NSLocalizedString("calc_loan_rate", comment: "")

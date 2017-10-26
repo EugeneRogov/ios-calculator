@@ -40,7 +40,6 @@ class CalcDateTable: UITableViewController {
         tvHours.text = NSLocalizedString("hours", comment: "")
         tvMinutes.text = NSLocalizedString("minutes", comment: "")
         tvSeconds.text = NSLocalizedString("seconds", comment: "")
-        
     }
     
 }
