@@ -2444,7 +2444,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Exclude VAT" id="n1s-Iw-58p">
+                            <tableViewSection headerTitle="Add VAT" id="n1s-Iw-58p">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="E7S-C9-h0R">
                                         <rect key="frame" x="0.0" y="199.33333333333334" width="414" height="44"/>
@@ -2578,6 +2578,20 @@
                             <outlet property="delegate" destination="72J-zf-2k9" id="JHZ-4t-tAH"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="etAmount" destination="x6p-7b-ZEx" id="I5A-1x-0eh"/>
+                        <outlet property="etRateOfVat" destination="6qB-Pc-cyZ" id="6DV-0s-NHy"/>
+                        <outlet property="tvAddSumVat" destination="Cma-Wh-XWw" id="mdO-cV-nBM"/>
+                        <outlet property="tvAddSumVatResult" destination="HW1-sr-iTF" id="E6b-0f-7CG"/>
+                        <outlet property="tvAddSumWithVat" destination="848-u0-LIC" id="NGB-79-5hV"/>
+                        <outlet property="tvAddSumWithVatResult" destination="f8P-EO-fXg" id="MBb-t1-LiB"/>
+                        <outlet property="tvAmount" destination="0QL-Nc-HHv" id="X7l-Xj-PxY"/>
+                        <outlet property="tvExcludeSumVat" destination="Su3-uG-TMK" id="uKE-cd-SP8"/>
+                        <outlet property="tvExcludeSumVatResult" destination="Dtq-9i-bdR" id="tsa-UQ-vXO"/>
+                        <outlet property="tvExcludeSumWithoutVat" destination="gUY-81-cmi" id="zLo-yn-6OJ"/>
+                        <outlet property="tvExcludeSumWithoutVatResult" destination="dyM-sa-jX4" id="YBT-7Q-2YP"/>
+                        <outlet property="tvRateOfVat" destination="KUh-Vm-aaf" id="IfW-XW-nBO"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1z-GA-T9f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
