@@ -431,7 +431,6 @@
                                                         <rect key="frame" x="367" y="0.0" width="31" height="30"/>
                                                         <state key="normal" title="PRO"/>
                                                         <connections>
-                                                            <action selector="btnPro:" destination="JQ1-d9-qnP" eventType="touchUpInside" id="O75-mT-LpA"/>
                                                             <segue destination="4Os-QM-cIY" kind="show" id="mSJ-AA-Ova"/>
                                                         </connections>
                                                     </button>
@@ -868,11 +867,11 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="none" indentationWidth="10" id="2x6-aN-wju">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="2x6-aN-wju">
                                         <rect key="frame" x="0.0" y="707.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2x6-aN-wju" id="UTr-Oe-P35">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вычесть 20% из числа 20 = 16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dF-lI-tpa">
@@ -1508,7 +1507,6 @@
                                         <rect key="frame" x="367" y="0.0" width="31" height="30"/>
                                         <state key="normal" title="PRO"/>
                                         <connections>
-                                            <action selector="btnPro:" destination="GLZ-cD-vdL" eventType="touchUpInside" id="05q-Lg-8sM"/>
                                             <segue destination="4Os-QM-cIY" kind="show" id="j8c-oD-t5h"/>
                                         </connections>
                                     </button>
@@ -2051,7 +2049,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jN4-sh-ffO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1269.5652173913045" y="-1324.7282608695652"/>
+            <point key="canvasLocation" x="1269" y="-1325"/>
         </scene>
         <!--Update-->
         <scene sceneID="KuT-3o-X8p">
@@ -2320,7 +2318,6 @@
                                         <rect key="frame" x="367" y="0.0" width="31" height="30"/>
                                         <state key="normal" title="PRO"/>
                                         <connections>
-                                            <action selector="btnPro:" destination="fFi-2T-a4C" eventType="touchUpInside" id="fwT-0U-qzN"/>
                                             <segue destination="4Os-QM-cIY" kind="show" id="KPq-xZ-Qjg"/>
                                         </connections>
                                     </button>
@@ -2634,8 +2631,7 @@
                                         <rect key="frame" x="367" y="0.0" width="31" height="30"/>
                                         <state key="normal" title="PRO"/>
                                         <connections>
-                                            <action selector="btnPro:" destination="rcF-5a-BHL" eventType="touchUpInside" id="wSR-zq-JYs"/>
-                                            <segue destination="4Os-QM-cIY" kind="show" id="oTX-aF-qcV"/>
+                                            <segue destination="4Os-QM-cIY" kind="show" id="Y63-Xj-8gk"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MwT-fS-BOP">
@@ -3022,7 +3018,7 @@
         <image name="icon" width="76" height="76"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="j8c-oD-t5h"/>
+        <segue reference="mSJ-AA-Ova"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>

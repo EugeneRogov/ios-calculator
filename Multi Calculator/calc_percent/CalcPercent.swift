@@ -16,9 +16,6 @@ class CalcPercent: UIViewController {
     @IBAction func btnSend(_ sender: UIButton) {
         
     }
-    @IBAction func btnPro(_ sender: UIButton) {
-//        self.performSegue(withIdentifier: Constant.SEGUE_UPDATE_FROM_CALC_PERCENT, sender: nil)
-    }
     
     
     override func viewDidLoad() {
