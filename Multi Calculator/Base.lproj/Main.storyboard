@@ -868,11 +868,11 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="2x6-aN-wju">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="none" indentationWidth="10" id="2x6-aN-wju">
                                         <rect key="frame" x="0.0" y="707.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2x6-aN-wju" id="UTr-Oe-P35">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вычесть 20% из числа 20 = 16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dF-lI-tpa">
@@ -899,6 +899,28 @@
                             <outlet property="delegate" destination="Jnx-Pl-Cwa" id="FLs-Mo-3Uh"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="etNumber1" destination="Hls-br-soR" id="8Oj-gh-i9c"/>
+                        <outlet property="etNumber2" destination="owx-te-wC2" id="nji-gN-v69"/>
+                        <outlet property="etNumber2_" destination="b9S-Sb-cqG" id="S7I-Y9-8r9"/>
+                        <outlet property="etNumber3" destination="Ue1-le-qbK" id="9Aa-NU-1PA"/>
+                        <outlet property="etNumber4" destination="gYK-25-dCx" id="zEV-PP-tXN"/>
+                        <outlet property="etPercent1" destination="LTM-QF-VwG" id="kKB-Wb-VwT"/>
+                        <outlet property="etPercent3" destination="nD2-aH-sR8" id="Typ-3b-RQQ"/>
+                        <outlet property="etPercent4" destination="tqR-TY-5Ly" id="56F-Ey-pTB"/>
+                        <outlet property="tvNumber1" destination="ANB-E2-jqo" id="fJ6-F7-AXA"/>
+                        <outlet property="tvNumber2" destination="qin-oo-Wfq" id="OBw-ZA-MUz"/>
+                        <outlet property="tvNumber2_" destination="wmV-dI-hX1" id="1YG-ln-TSq"/>
+                        <outlet property="tvNumber3" destination="4xs-kJ-xTB" id="ady-el-Opa"/>
+                        <outlet property="tvNumber4" destination="IMU-zp-Cey" id="PiC-ZL-GqI"/>
+                        <outlet property="tvPercent1" destination="B9s-9C-HzH" id="GMW-vi-oWL"/>
+                        <outlet property="tvPercent3" destination="xJt-EV-f7E" id="2QK-mK-lqZ"/>
+                        <outlet property="tvPercent4" destination="ecY-dA-pvh" id="DIm-Pq-xhs"/>
+                        <outlet property="tvResult1" destination="J6u-xC-fv0" id="7ev-Hd-8MQ"/>
+                        <outlet property="tvResult2" destination="CtV-bZ-UqL" id="nAw-gl-Bog"/>
+                        <outlet property="tvResult3" destination="fIv-Gr-yzk" id="Gyx-nN-cZq"/>
+                        <outlet property="tvResult4" destination="5dF-lI-tpa" id="g2Z-g8-utz"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QH5-Ce-yRc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
