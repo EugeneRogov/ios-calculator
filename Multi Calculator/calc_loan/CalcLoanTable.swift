@@ -10,6 +10,20 @@ import UIKit
 
 class CalcLoanTable: UITableViewController {
     
+    @IBOutlet weak var typeOfCredit: UISegmentedControl!
+    @IBOutlet weak var tvSum: UILabel!
+    @IBOutlet weak var etSum: UITextField!
+    @IBOutlet weak var tvTerm: UILabel!
+    @IBOutlet weak var etTerm: UITextField!
+    @IBOutlet weak var tvRate: UILabel!
+    @IBOutlet weak var etRate: UITextField!
+    @IBOutlet weak var tvMonthlyPaymaent: UILabel!
+    @IBOutlet weak var etMonthlyPaymaent: UILabel!
+    @IBOutlet weak var tvTotalSum: UILabel!
+    @IBOutlet weak var etTotalSum: UILabel!
+    @IBOutlet weak var tvOverpayment: UILabel!
+    @IBOutlet weak var etOverpayment: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
@@ -17,7 +31,13 @@ class CalcLoanTable: UITableViewController {
     }
     
     fileprivate func initViews() {
+        tvSum.text = NSLocalizedString("calc_loan_sum", comment: "")
+        tvTerm.text = NSLocalizedString("calc_loan_term", comment: "")
+        tvRate.text = NSLocalizedString("calc_loan_rate", comment: "")
         
+        tvMonthlyPaymaent.text = NSLocalizedString("calc_loan_monthly_payment", comment: "")
+        tvTotalSum.text = NSLocalizedString("calc_loan_total_sum", comment: "")
+        tvOverpayment.text = NSLocalizedString("calc_loan_overpayment", comment: "")
     }
     
 }

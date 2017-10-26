@@ -1237,6 +1237,21 @@
                             <outlet property="delegate" destination="BRx-PG-vAH" id="VDD-lr-oWr"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="etMonthlyPaymaent" destination="cGZ-JM-XcQ" id="e6C-nh-RuT"/>
+                        <outlet property="etOverpayment" destination="a0L-Mc-sgD" id="s3t-0A-jwC"/>
+                        <outlet property="etRate" destination="gAV-IQ-Qjj" id="hL6-NP-WxI"/>
+                        <outlet property="etSum" destination="rAq-vW-Y8f" id="9Ub-ce-urc"/>
+                        <outlet property="etTerm" destination="UTy-j3-FYo" id="ff0-UF-mAR"/>
+                        <outlet property="etTotalSum" destination="eIb-IC-QG7" id="Dg8-JX-sLG"/>
+                        <outlet property="tvMonthlyPaymaent" destination="WkE-6r-ZEh" id="mkH-vy-ZrU"/>
+                        <outlet property="tvOverpayment" destination="6DU-DF-uVv" id="aJJ-C6-ESE"/>
+                        <outlet property="tvRate" destination="YJH-9S-V0F" id="tKE-3O-g38"/>
+                        <outlet property="tvSum" destination="Jhk-lY-rxX" id="VqA-I9-bDL"/>
+                        <outlet property="tvTerm" destination="Obd-DG-bSW" id="O1b-fh-pzM"/>
+                        <outlet property="tvTotalSum" destination="vne-bn-iRb" id="hV6-kz-R0X"/>
+                        <outlet property="typeOfCredit" destination="Srr-Jk-xES" id="71M-lS-ce8"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="202-lX-n1Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2909,11 +2924,11 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="none" indentationWidth="10" id="YWF-x1-pIT">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="YWF-x1-pIT">
                                         <rect key="frame" x="0.0" y="675.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YWF-x1-pIT" id="uIg-hd-KiT">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qV0-Qq-vd4">
@@ -2942,11 +2957,11 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="none" indentationWidth="10" id="ryA-Ai-CGd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="ryA-Ai-CGd">
                                         <rect key="frame" x="0.0" y="719.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ryA-Ai-CGd" id="BoK-Hb-8Xj">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seconds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Alf-E0-v63">
