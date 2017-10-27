@@ -26,26 +26,15 @@ class CalcVatTable: UITableViewController {
     @IBOutlet weak var tvExcludeSumWithoutVatResult: UILabel!
     
     @IBAction func rateOfVatChangeListener(_ sender: Any) {
-        if etRateOfVat.text != "" && tvAmount.text != "" {
-            let vat = Double(etRateOfVat.text!)
-            let sum = Double(etRateOfVat.text!)
-            let sumVat = ((vat! * sum!) / 100);
-            tvAddSumVatResult.text = String(sumVat)
-            
-            
-        } else {
-            clearAllFields()
-        }
+        calculate()
     }
     
     @IBAction func amountChangeListener(_ sender: Any) {
-        
+        calculate()
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
-        
     }
     
     fileprivate func initViews() {
@@ -64,7 +53,25 @@ class CalcVatTable: UITableViewController {
         
         tvExcludeSumVat.text = NSLocalizedString("sum_vat", comment: "")
         tvExcludeSumWithoutVat.text = NSLocalizedString("sum_without_vat", comment: "")
-        
+    }
+    
+    fileprivate func calculate() {
+        if etRateOfVat.text != "" && etAmount.text != "" {
+            let vat = Double(etRateOfVat.text!)
+            let sum = Double(etRateOfVat.text!)
+            
+            // add vat
+            let sumVat = ((vat! * sum!) / 100)
+            tvAddSumVatResult.text = String(sumVat)
+            tvAddSumWithVatResult.text = String(sum! + sumVat)
+            
+            // exclude vat
+            let sumWithoutVat = ((vat! * sum!) / (100 + vat!))
+            tvExcludeSumVatResult.text = String(sumWithoutVat)
+            tvExcludeSumWithoutVatResult.text = String(sum! - sumWithoutVat)
+        } else {
+            clearAllFields()
+        }
     }
     
     fileprivate func clearAllFields() {
