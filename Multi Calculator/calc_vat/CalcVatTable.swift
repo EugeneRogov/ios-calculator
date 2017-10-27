@@ -25,6 +25,23 @@ class CalcVatTable: UITableViewController {
     @IBOutlet weak var tvExcludeSumWithoutVat: UILabel!
     @IBOutlet weak var tvExcludeSumWithoutVatResult: UILabel!
     
+    @IBAction func rateOfVatChangeListener(_ sender: Any) {
+        if etRateOfVat.text != "" && tvAmount.text != "" {
+            let vat = Double(etRateOfVat.text!)
+            let sum = Double(etRateOfVat.text!)
+            let sumVat = ((vat! * sum!) / 100);
+            tvAddSumVatResult.text = String(sumVat)
+            
+            
+        } else {
+            clearAllFields()
+        }
+    }
+    
+    @IBAction func amountChangeListener(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
@@ -32,6 +49,13 @@ class CalcVatTable: UITableViewController {
     }
     
     fileprivate func initViews() {
+        // set type of keyboard
+        etRateOfVat.keyboardType = UIKeyboardType.numberPad
+        etAmount.keyboardType = UIKeyboardType.numberPad
+//        etRateOfVat.keyboardType = UIKeyboardType.decimalPad
+//        etAmount.keyboardType = UIKeyboardType.decimalPad
+        
+        // localization
         tvRateOfVat.text = NSLocalizedString("rate_of_vat", comment: "")
         tvAmount.text = NSLocalizedString("amount", comment: "")
         
@@ -41,6 +65,13 @@ class CalcVatTable: UITableViewController {
         tvExcludeSumVat.text = NSLocalizedString("sum_vat", comment: "")
         tvExcludeSumWithoutVat.text = NSLocalizedString("sum_without_vat", comment: "")
         
+    }
+    
+    fileprivate func clearAllFields() {
+        tvAddSumVatResult.text = ""
+        tvAddSumWithVatResult.text = ""
+        tvExcludeSumVatResult.text = ""
+        tvExcludeSumWithoutVatResult.text = ""
     }
     
 }
