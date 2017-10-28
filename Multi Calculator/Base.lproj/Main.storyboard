@@ -2437,7 +2437,7 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                     <connections>
-                                                        <action selector="rateOfVatChangeListener:" destination="72J-zf-2k9" eventType="editingChanged" id="PLg-EM-6KO"/>
+                                                        <action selector="rateOfVatListener:" destination="72J-zf-2k9" eventType="editingChanged" id="KEi-8M-ldX"/>
                                                     </connections>
                                                 </textField>
                                             </subviews>
@@ -2475,7 +2475,7 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                     <connections>
-                                                        <action selector="amountChangeListener:" destination="72J-zf-2k9" eventType="editingChanged" id="sjC-fs-Lmx"/>
+                                                        <action selector="amountListener:" destination="72J-zf-2k9" eventType="editingChanged" id="xjN-qw-qfM"/>
                                                     </connections>
                                                 </textField>
                                             </subviews>
