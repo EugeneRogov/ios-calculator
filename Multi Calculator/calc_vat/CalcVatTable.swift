@@ -27,11 +27,9 @@ class CalcVatTable: UITableViewController {
     
     @IBAction func rateOfVatListener(_ sender: UITextField) {
         calculate()
-        print("rateOfVatListener")
     }
     @IBAction func amountListener(_ sender: UITextField) {
         calculate()
-        print("amountListener")
     }
     
     override func viewDidLoad() {
@@ -41,8 +39,8 @@ class CalcVatTable: UITableViewController {
     
     fileprivate func initViews() {
         // set type of keyboard
-        etRateOfVat.keyboardType = UIKeyboardType.numberPad
-        etAmount.keyboardType = UIKeyboardType.numberPad
+        etRateOfVat.keyboardType = UIKeyboardType.decimalPad
+        etAmount.keyboardType = UIKeyboardType.decimalPad
         
         // localization
         tvRateOfVat.text = NSLocalizedString("rate_of_vat", comment: "")
@@ -56,8 +54,14 @@ class CalcVatTable: UITableViewController {
     }
     
     fileprivate func calculate() {
+        if etRateOfVat.text == "." {
+            etRateOfVat.text = "0."
+        }
+        if etAmount.text == "." {
+            etAmount.text = "0."
+        }
+        
         if etRateOfVat.text != "" && etAmount.text != "" {
-            
             let vat = Double(etRateOfVat.text!)
             let sum = Double(etAmount.text!)
             
