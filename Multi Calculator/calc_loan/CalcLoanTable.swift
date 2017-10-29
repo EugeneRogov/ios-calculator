@@ -27,10 +27,21 @@ class CalcLoanTable: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
-        
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch section {
+        case 0:
+            return ""
+        case 1:
+            return ""
+        default:
+            return ""
+        }
     }
     
     fileprivate func initViews() {
+        // localisation
         typeOfCredit.setTitle(NSLocalizedString("calc_loan_annuity", comment: ""), forSegmentAt: 0)
         typeOfCredit.setTitle(NSLocalizedString("calc_loan_differentiated", comment: ""), forSegmentAt: 1)
         tvSum.text = NSLocalizedString("calc_loan_sum", comment: "")

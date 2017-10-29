@@ -28,11 +28,21 @@ class CalcDateTable: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
-        
-        
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch section {
+        case 0:
+            return ""
+        case 1:
+            return NSLocalizedString("total", comment: "")
+        default:
+            return ""
+        }
     }
     
     fileprivate func initViews() {
+        // localisation
         tvYears.text = NSLocalizedString("years", comment: "")
         tvMonths.text = NSLocalizedString("months", comment: "")
         tvWeeks.text = NSLocalizedString("weeks", comment: "")

@@ -75,7 +75,23 @@ class CalcPercentTable: UITableViewController {
         
     }
     
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch section {
+        case 0:
+            return NSLocalizedString("how_much_is", comment: "")
+        case 1:
+            return NSLocalizedString("what_percent_of_the_number_of", comment: "")
+        case 2:
+            return NSLocalizedString("add", comment: "")
+        case 3:
+            return NSLocalizedString("subtract", comment: "")
+        default:
+            return ""
+        }
+    }
+    
     fileprivate func initViews() {
+        // localisation
         tvPercent1.text = NSLocalizedString("percent", comment: "")
         tvNumber1.text = NSLocalizedString("number", comment: "")
         

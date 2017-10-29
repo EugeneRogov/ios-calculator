@@ -21,14 +21,22 @@ class Settings: UITableViewController {
     @IBOutlet weak var tvCalcLoan: UILabel!
     @IBOutlet weak var swCalcLoan: UISwitch!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
-        
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch section {
+        case 0:
+            return NSLocalizedString("menu_settings", comment: "")
+        default:
+            return ""
+        }
     }
     
     fileprivate func initViews() {
+        // localisation
         tvCalcSimple.text = NSLocalizedString("navigation_menu_simple", comment: "")
         tvCalcVat.text = NSLocalizedString("navigation_menu_vat", comment: "")
         tvCalcDate.text = NSLocalizedString("navigation_menu_date", comment: "")
