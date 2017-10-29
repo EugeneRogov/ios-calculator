@@ -24,20 +24,42 @@ class CalcVatTable: UITableViewController {
     @IBOutlet weak var tvExcludeSumVatResult: UILabel!
     @IBOutlet weak var tvExcludeSumWithoutVat: UILabel!
     @IBOutlet weak var tvExcludeSumWithoutVatResult: UILabel!
+
     
     @IBAction func rateOfVatListener(_ sender: UITextField) {
         calculate()
+        
     }
     @IBAction func amountListener(_ sender: UITextField) {
         calculate()
     }
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dataSource = self
+        tableView.delegate = self
+        
         initViews()
     }
     
+
+    
+    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch section {
+            case 0:
+                return "Apple Devices"
+            case 1:
+                return "Samsung Devices"
+            default:
+                return "Other Devices"
+        }
+    }
+    
     fileprivate func initViews() {
+        
+
+        
         // set type of keyboard
         etRateOfVat.keyboardType = UIKeyboardType.decimalPad
         etAmount.keyboardType = UIKeyboardType.decimalPad
@@ -51,6 +73,8 @@ class CalcVatTable: UITableViewController {
         
         tvExcludeSumVat.text = NSLocalizedString("sum_vat", comment: "")
         tvExcludeSumWithoutVat.text = NSLocalizedString("sum_without_vat", comment: "")
+        
+        
     }
     
     fileprivate func calculate() {
