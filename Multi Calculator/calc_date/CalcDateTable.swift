@@ -28,6 +28,9 @@ class CalcDateTable: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(CalcDateTable.clearAllFields), name: NSNotification.Name(rawValue: Constant.NC_CALC_VAT_CLEAR), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(CalcDateTable.sendResult), name: NSNotification.Name(rawValue: Constant.NC_CALC_VAT_CLEAR), object: nil)
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -41,6 +44,14 @@ class CalcDateTable: UITableViewController {
         }
     }
     
+    @objc func clearAllFields() {
+
+    }
+    
+    @objc func sendResult() {
+        
+    }
+    
     fileprivate func initViews() {
         // localisation
         tvYears.text = NSLocalizedString("years", comment: "")
@@ -50,6 +61,10 @@ class CalcDateTable: UITableViewController {
         tvHours.text = NSLocalizedString("hours", comment: "")
         tvMinutes.text = NSLocalizedString("minutes", comment: "")
         tvSeconds.text = NSLocalizedString("seconds", comment: "")
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
 }

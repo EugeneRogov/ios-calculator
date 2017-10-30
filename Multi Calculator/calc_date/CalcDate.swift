@@ -14,10 +14,10 @@ class CalcDate: UIViewController {
     @IBOutlet weak var btnSend: UIButton!
     
     @IBAction func btnClear(_ sender: UIButton) {
-        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constant.NC_CALC_DATE_CLEAR), object: nil)
     }
     @IBAction func btnSend(_ sender: UIButton) {
-        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constant.NC_CALC_DATE_SEND), object: nil)
     }
     
     override func viewDidLoad() {

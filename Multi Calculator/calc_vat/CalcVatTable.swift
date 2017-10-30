@@ -37,6 +37,7 @@ class CalcVatTable: UITableViewController {
         initViews()
         
         NotificationCenter.default.addObserver(self, selector: #selector(CalcVatTable.clearAllFields), name: NSNotification.Name(rawValue: Constant.NC_CALC_VAT_CLEAR), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(CalcVatTable.sendResult), name: NSNotification.Name(rawValue: Constant.NC_CALC_VAT_CLEAR), object: nil)
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -99,6 +100,10 @@ class CalcVatTable: UITableViewController {
         etRateOfVat.text = ""
         etAmount.text = ""
         clearTextFields()
+    }
+    
+    @objc func sendResult() {
+        
     }
     
     fileprivate func clearTextFields() {

@@ -18,7 +18,7 @@ class CalcVat: UIViewController {
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constant.NC_CALC_VAT_CLEAR), object: nil)
     }
     @IBAction func btnSend(_ sender: UIButton) {
-        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constant.NC_CALC_VAT_SEND), object: nil)
     }
     
     

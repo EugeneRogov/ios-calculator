@@ -14,10 +14,10 @@ class CalcPercent: UIViewController {
     @IBOutlet weak var btnSend: UIButton!
     
     @IBAction func btnClear(_ sender: UIButton) {
-        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constant.NC_CALC_PERCENT_CLEAR), object: nil)
     }
     @IBAction func btnSend(_ sender: UIButton) {
-        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constant.NC_CALC_PERCENT_SEND), object: nil)
     }
     
     

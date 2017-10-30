@@ -27,6 +27,9 @@ class CalcLoanTable: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(CalcLoanTable.clearAllFields), name: NSNotification.Name(rawValue: Constant.NC_CALC_LOAN_RESULT), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(CalcLoanTable.sendResult), name: NSNotification.Name(rawValue: Constant.NC_CALC_LOAN_SEND), object: nil)
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -40,6 +43,14 @@ class CalcLoanTable: UITableViewController {
         }
     }
     
+    @objc func clearAllFields() {
+        
+    }
+    
+    @objc func sendResult() {
+        
+    }
+    
     fileprivate func initViews() {
         // localisation
         typeOfCredit.setTitle(NSLocalizedString("calc_loan_annuity", comment: ""), forSegmentAt: 0)
@@ -51,6 +62,10 @@ class CalcLoanTable: UITableViewController {
         tvMonthlyPaymaent.text = NSLocalizedString("calc_loan_monthly_payment", comment: "")
         tvTotalSum.text = NSLocalizedString("calc_loan_total_sum", comment: "")
         tvOverpayment.text = NSLocalizedString("calc_loan_overpayment", comment: "")
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
 }

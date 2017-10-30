@@ -14,10 +14,10 @@ class CalcLoan: UIViewController {
     @IBOutlet weak var btnSend: UIButton!
     
     @IBAction func btnResult(_ sender: UIButton) {
-        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constant.NC_CALC_LOAN_RESULT), object: nil)
     }
     @IBAction func btnSend(_ sender: UIButton) {
-        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constant.NC_CALC_LOAN_SEND), object: nil)
     }
     
     override func viewDidLoad() {

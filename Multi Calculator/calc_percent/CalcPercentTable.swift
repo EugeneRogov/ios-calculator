@@ -66,6 +66,9 @@ class CalcPercentTable: UITableViewController {
         super.viewDidLoad()
         initViews()
         
+        NotificationCenter.default.addObserver(self, selector: #selector(CalcPercentTable.clearAllFields), name: NSNotification.Name(rawValue: Constant.NC_CALC_PERCENT_CLEAR), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(CalcPercentTable.sendResult), name: NSNotification.Name(rawValue: Constant.NC_CALC_PERCENT_SEND), object: nil)
+        
 //        let NameField = "eff"
 //        let DateField = "dddddd"
 //        
@@ -90,27 +93,7 @@ class CalcPercentTable: UITableViewController {
         }
     }
     
-    fileprivate func initViews() {
-        // localisation
-        tvPercent1.text = NSLocalizedString("percent", comment: "")
-        tvNumber1.text = NSLocalizedString("number", comment: "")
-        
-        tvNumber2.text = NSLocalizedString("number", comment: "")
-        tvNumber2_.text = NSLocalizedString("number", comment: "")
-        
-        tvPercent3.text = NSLocalizedString("percent", comment: "")
-        tvNumber3.text = NSLocalizedString("number", comment: "")
-        
-        tvPercent4.text = NSLocalizedString("percent", comment: "")
-        tvNumber4.text = NSLocalizedString("number", comment: "")
-        
-    }
-    
-    fileprivate func calculate() {
-     
-    }
-    
-    fileprivate func clearAllFields() {
+    @objc func clearAllFields() {
         tvPercent1.text = ""
         etPercent1.text = ""
         tvNumber1.text = ""
@@ -134,6 +117,34 @@ class CalcPercentTable: UITableViewController {
         tvNumber4.text = ""
         etNumber4.text = ""
         tvResult4.text = ""
+    }
+    
+    @objc func sendResult() {
+        
+    }
+    
+    fileprivate func initViews() {
+        // localisation
+        tvPercent1.text = NSLocalizedString("percent", comment: "")
+        tvNumber1.text = NSLocalizedString("number", comment: "")
+        
+        tvNumber2.text = NSLocalizedString("number", comment: "")
+        tvNumber2_.text = NSLocalizedString("number", comment: "")
+        
+        tvPercent3.text = NSLocalizedString("percent", comment: "")
+        tvNumber3.text = NSLocalizedString("number", comment: "")
+        
+        tvPercent4.text = NSLocalizedString("percent", comment: "")
+        tvNumber4.text = NSLocalizedString("number", comment: "")
+        
+    }
+    
+    fileprivate func calculate() {
+     
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
 }
