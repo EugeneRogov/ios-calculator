@@ -3,6 +3,12 @@
 "app_name" = "Калькулятор";
 "cancel" = "Отмена";
 
+"btn_action_settings" = "Настройки";
+"btn_action_history" = "История";
+"btn_action_send" = "Отправить";
+"btn_action_clear" = "Очистить";
+"btn_action_result" = "Резельтат";
+
 "navigation_menu_simple" = "Классический калькулятор";
 "navigation_menu_scientific" = "Инженерный калькулятор";
 "navigation_menu_vat" = "НДС калькулятор";

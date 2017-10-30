@@ -3,6 +3,12 @@
 "app_name" = "Calculator";
 "cancel" = "Cancel";
 
+"btn_action_settings" = "Settings";
+"btn_action_history" = "History";
+"btn_action_send" = "Send";
+"btn_action_clear" = "Clear";
+"btn_action_result" = "Result";
+
 "navigation_menu_simple" = "Simple calculator";
 "navigation_menu_scientific" = "Scientific calculator";
 "navigation_menu_vat" = "VAT calculator";

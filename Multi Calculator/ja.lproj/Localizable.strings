@@ -3,6 +3,12 @@
 "app_name" = "電卓";
 "cancel" = "キャンセル";
 
+"btn_action_settings" = "設定";
+"btn_action_history" = "歴史";
+"btn_action_send" = "送信する";
+"btn_action_clear" = "クリア";
+"btn_action_result" = "結果";
+
 "navigation_menu_simple" = "シンプルな電卓";
 "navigation_menu_scientific" = "科学計算用電卓";
 "navigation_menu_vat" = "付加価値税の計算";

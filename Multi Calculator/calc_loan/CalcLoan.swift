@@ -28,8 +28,8 @@ class CalcLoan: UIViewController {
     
     fileprivate func initViews() {
         // localisation
-        btnResult.setTitle(NSLocalizedString("navigation_menu_settings", comment: ""), for: UIControlState.normal)
-        btnSend.setTitle(NSLocalizedString("navigation_menu_history", comment: ""), for: UIControlState.normal)
+        btnResult.setTitle(NSLocalizedString("btn_action_result", comment: ""), for: UIControlState.normal)
+        btnSend.setTitle(NSLocalizedString("btn_action_send", comment: ""), for: UIControlState.normal)
     }
     
 }

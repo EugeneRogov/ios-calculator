@@ -3,6 +3,12 @@
 "app_name" = "Taschenrechner";
 "cancel" = "Stornieren";
 
+"btn_action_settings" = "Einstellungen";
+"btn_action_history" = "Geschichte";
+"btn_action_send" = "Senden";
+"btn_action_clear" = "Klar";
+"btn_action_result" = "Ergebnis";
+
 "navigation_menu_simple" = "Einfacher Rechner";
 "navigation_menu_scientific" = "Wissenschaftlicher Taschenrechner";
 "navigation_menu_vat" = "Mehrwertsteuer-Rechner";

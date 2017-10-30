@@ -167,9 +167,9 @@ class CalcSimple: UIViewController {
     
     fileprivate func initViews() {
         // localisation
-        btnSettings.setTitle(NSLocalizedString("navigation_menu_settings", comment: ""), for: UIControlState.normal)
-        btnHistory.setTitle(NSLocalizedString("navigation_menu_history", comment: ""), for: UIControlState.normal)
-//        btnSend.setTitle(NSLocalizedString("navigation_menu_send_result", comment: ""), for: UIControlState.normal)
+        btnSettings.setTitle(NSLocalizedString("btn_action_settings", comment: ""), for: UIControlState.normal)
+        btnHistory.setTitle(NSLocalizedString("btn_action_history", comment: ""), for: UIControlState.normal)
+        btnSend.setTitle(NSLocalizedString("btn_action_send", comment: ""), for: UIControlState.normal)
         
         // set long click listeners
         btnMc.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))

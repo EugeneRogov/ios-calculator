@@ -3,6 +3,12 @@
 "app_name" = "Calculatrice";
 "cancel" = "Annuler";
 
+"btn_action_settings" = "Paramètres";
+"btn_action_history" = "Histoire";
+"btn_action_send" = "Envoyer";
+"btn_action_clear" = "Clair";
+"btn_action_result" = "Résultat";
+
 "navigation_menu_simple" = "Simple calculatrice";
 "navigation_menu_scientific" = "Scientifique calculatrice";
 "navigation_menu_vat" = "TVA calculatrice";
