@@ -35,6 +35,8 @@ class CalcVatTable: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(CalcVatTable.clearAllFields), name: NSNotification.Name(rawValue: Constant.NC_CALC_VAT_CLEAR), object: nil)
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -89,15 +91,25 @@ class CalcVatTable: UITableViewController {
             tvExcludeSumVatResult.text = String(sumWithoutVat)
             tvExcludeSumWithoutVatResult.text = String(sum! - sumWithoutVat)
         } else {
-            clearAllFields()
+            clearTextFields()
         }
     }
     
-    fileprivate func clearAllFields() {
+    @objc func clearAllFields() {
+        etRateOfVat.text = ""
+        etAmount.text = ""
+        clearTextFields()
+    }
+    
+    fileprivate func clearTextFields() {
         tvAddSumVatResult.text = ""
         tvAddSumWithVatResult.text = ""
         tvExcludeSumVatResult.text = ""
         tvExcludeSumWithoutVatResult.text = ""
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
 }

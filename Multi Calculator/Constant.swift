@@ -15,4 +15,10 @@ struct Constant {
     static let SEGUE_UPDATE_FROM_CALC_PERCENT = "segue_update_from_calc_percent"
     static let SEGUE_UPDATE_FROM_CALC_DATE = "segue_update_from_calc_date"
     
+    
+    
+    
+    static let NC_CALC_VAT_CLEAR = "nc_calc_vat_clear"
+    static let NC_CALC_VAT_SEND = "nc_calc_vat_send"
+    
 }
