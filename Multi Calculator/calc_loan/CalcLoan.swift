@@ -10,10 +10,10 @@ import UIKit
 
 class CalcLoan: UIViewController {
     
-    @IBOutlet weak var btnTable: UIButton!
+    @IBOutlet weak var btnResult: UIButton!
     @IBOutlet weak var btnSend: UIButton!
     
-    @IBAction func btnTable(_ sender: UIButton) {
+    @IBAction func btnResult(_ sender: UIButton) {
         
     }
     @IBAction func btnSend(_ sender: UIButton) {
@@ -27,7 +27,9 @@ class CalcLoan: UIViewController {
     }
     
     fileprivate func initViews() {
-
+        // localisation
+        btnResult.setTitle(NSLocalizedString("navigation_menu_settings", comment: ""), for: UIControlState.normal)
+        btnSend.setTitle(NSLocalizedString("navigation_menu_history", comment: ""), for: UIControlState.normal)
     }
     
 }

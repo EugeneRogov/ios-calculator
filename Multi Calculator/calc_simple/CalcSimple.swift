@@ -10,6 +10,9 @@ import UIKit
 
 class CalcSimple: UIViewController {
     
+    @IBOutlet weak var btnSettings: UIButton!
+    @IBOutlet weak var btnHistory: UIButton!
+    @IBOutlet weak var btnSend: UIButton!
     
     @IBOutlet weak var btnMc: UIButton!
     @IBOutlet weak var btnMminus: UIButton!
@@ -141,12 +144,7 @@ class CalcSimple: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // set long click listeners
-        btnMc.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))
-        btnMminus.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openHistory(_:))))
-        bntMplus.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(sendResult(_:))))
-        
+        initViews()
     }
     
     @objc func openSettings(_ sender: UIGestureRecognizer) {
@@ -165,6 +163,18 @@ class CalcSimple: UIViewController {
         if sender.state == .began {
             
         }
+    }
+    
+    fileprivate func initViews() {
+        // localisation
+        btnSettings.setTitle(NSLocalizedString("navigation_menu_settings", comment: ""), for: UIControlState.normal)
+        btnHistory.setTitle(NSLocalizedString("navigation_menu_history", comment: ""), for: UIControlState.normal)
+//        btnSend.setTitle(NSLocalizedString("navigation_menu_send_result", comment: ""), for: UIControlState.normal)
+        
+        // set long click listeners
+        btnMc.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openSettings(_:))))
+        btnMminus.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(openHistory(_:))))
+        bntMplus.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(sendResult(_:))))
     }
 
 }

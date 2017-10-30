@@ -10,6 +10,8 @@ import UIKit
 
 class CalcVat: UIViewController {
     
+    @IBOutlet weak var btnClear: UIButton!
+    @IBOutlet weak var btnSend: UIButton!
     @IBOutlet weak var btnPro: UIButton!
     
     
@@ -27,7 +29,9 @@ class CalcVat: UIViewController {
     }
     
     fileprivate func initViews() {
-
+        // localisation
+        btnClear.setTitle(NSLocalizedString("navigation_menu_settings", comment: ""), for: UIControlState.normal)
+        btnSend.setTitle(NSLocalizedString("navigation_menu_history", comment: ""), for: UIControlState.normal)
     }
     
 }

@@ -10,6 +10,8 @@ import UIKit
 
 class CalcDate: UIViewController {
     
+    @IBOutlet weak var btnClear: UIButton!
+    @IBOutlet weak var btnSend: UIButton!
     
     @IBAction func btnClear(_ sender: UIButton) {
         
@@ -20,8 +22,13 @@ class CalcDate: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+        initViews()
+    }
+    
+    fileprivate func initViews() {
+        // localisation
+        btnClear.setTitle(NSLocalizedString("navigation_menu_settings", comment: ""), for: UIControlState.normal)
+        btnSend.setTitle(NSLocalizedString("navigation_menu_history", comment: ""), for: UIControlState.normal)
     }
     
 }

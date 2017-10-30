@@ -513,6 +513,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WYV-Rv-4mU"/>
                     </view>
+                    <connections>
+                        <outlet property="btnClear" destination="WHp-DH-OJ6" id="6kl-Gc-VT0"/>
+                        <outlet property="btnSend" destination="8lV-rZ-dlX" id="wMh-IY-6aQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wA2-mF-Kaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -980,10 +984,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXr-PW-sIP">
-                                        <rect key="frame" x="309" y="0.0" width="37" height="30"/>
-                                        <state key="normal" title="Table"/>
+                                        <rect key="frame" x="303" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="Result"/>
                                         <connections>
-                                            <action selector="btnTable:" destination="4ur-k3-gsV" eventType="touchUpInside" id="uCw-yG-7oT"/>
+                                            <action selector="btnResult:" destination="4ur-k3-gsV" eventType="touchUpInside" id="UF9-oZ-rUT"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1021,8 +1025,8 @@
                         <viewLayoutGuide key="safeArea" id="eCU-cS-yY0"/>
                     </view>
                     <connections>
-                        <outlet property="btnSend" destination="osv-1K-syb" id="Q0O-Pr-NJD"/>
-                        <outlet property="btnTable" destination="vXr-PW-sIP" id="iMq-Oq-HpV"/>
+                        <outlet property="btnResult" destination="vXr-PW-sIP" id="bjR-Bg-GKQ"/>
+                        <outlet property="btnSend" destination="osv-1K-syb" id="gkY-kI-zCu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZ4-ik-qIW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2081,6 +2085,7 @@
                         <outlet property="btnDivision" destination="hT3-xi-dR0" id="0ci-wq-dmo"/>
                         <outlet property="btnDot" destination="EVG-zF-Jn1" id="QsH-uD-o3f"/>
                         <outlet property="btnEqual" destination="Pwy-cz-vpK" id="fyf-yt-Wgp"/>
+                        <outlet property="btnHistory" destination="WHM-7P-UNO" id="bFw-Q4-dRb"/>
                         <outlet property="btnLeftBracket" destination="caS-tG-okL" id="OPw-cA-Jmk"/>
                         <outlet property="btnMc" destination="quZ-dC-ifq" id="WQ5-hE-465"/>
                         <outlet property="btnMinus" destination="ewM-Yi-rox" id="tdi-Mg-aRf"/>
@@ -2092,6 +2097,8 @@
                         <outlet property="btnPlusMinus" destination="UZF-oc-I9N" id="Qz1-HV-e08"/>
                         <outlet property="btnRightBracket" destination="FBF-Sc-Ii7" id="KU4-BV-DBy"/>
                         <outlet property="btnRoot" destination="rSW-0Y-hjg" id="Jm0-3h-0nH"/>
+                        <outlet property="btnSend" destination="pi3-Fw-b6t" id="BDa-zx-dRb"/>
+                        <outlet property="btnSettings" destination="RVT-od-l9u" id="js9-H8-d3e"/>
                         <outlet property="operation" destination="o4C-NT-Fc7" id="wBE-5y-5xL"/>
                         <outlet property="result" destination="4dp-3o-qfQ" id="TAd-R3-GQx"/>
                         <segue destination="Ms4-eG-Hfa" kind="show" identifier="segue_calc_simple_settings" id="Qtj-My-1Vu"/>
@@ -2422,7 +2429,9 @@
                         <viewLayoutGuide key="safeArea" id="hKC-60-Tiu"/>
                     </view>
                     <connections>
+                        <outlet property="btnClear" destination="LtP-Ir-Jub" id="Nu8-HP-IDu"/>
                         <outlet property="btnPro" destination="FA0-9C-za8" id="FwJ-Z7-yAD"/>
+                        <outlet property="btnSend" destination="sRC-28-XM8" id="4PC-dT-B4X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asO-E6-jLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2739,6 +2748,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8PQ-hc-1de"/>
                     </view>
+                    <connections>
+                        <outlet property="btnClear" destination="rz2-EX-mpI" id="era-z8-wjP"/>
+                        <outlet property="btnSend" destination="MwT-fS-BOP" id="eZl-ZF-SWC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vW-C0-Ol0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3091,7 +3104,7 @@
         <image name="icon" width="76" height="76"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Y63-Xj-8gk"/>
+        <segue reference="mSJ-AA-Ova"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
