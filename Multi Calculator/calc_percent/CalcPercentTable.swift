@@ -69,12 +69,12 @@ class CalcPercentTable: UITableViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(CalcPercentTable.clearAllFields), name: NSNotification.Name(rawValue: Constant.NC_CALC_PERCENT_CLEAR), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(CalcPercentTable.sendResult), name: NSNotification.Name(rawValue: Constant.NC_CALC_PERCENT_SEND), object: nil)
         
-//        let NameField = "eff"
-//        let DateField = "dddddd"
-//        
-//        let string = "Name: \(NameField) \nDate: \(DateField)"
-//        
-//        print(string)
+        let NameField = "eff"
+        let DateField = "dddddd"
+//
+        let string = "Name: \(NameField) Date: \(DateField)"
+//
+        tvResult1.text = string
         
     }
     
@@ -94,29 +94,23 @@ class CalcPercentTable: UITableViewController {
     }
     
     @objc func clearAllFields() {
-        tvPercent1.text = ""
         etPercent1.text = ""
-        tvNumber1.text = ""
         etNumber1.text = ""
         tvResult1.text = ""
         
-        tvNumber2.text = ""
         etNumber2.text = ""
-        tvNumber2_.text = ""
         etNumber2_.text = ""
         tvResult2.text = ""
         
-        tvPercent3.text = ""
         etPercent3.text = ""
-        tvNumber3.text = ""
         etNumber3.text = ""
         tvResult3.text = ""
         
-        tvPercent4.text = ""
         etPercent4.text = ""
-        tvNumber4.text = ""
         etNumber4.text = ""
         tvResult4.text = ""
+    
+        self.view.endEditing(true)
     }
     
     @objc func sendResult() {
@@ -124,6 +118,16 @@ class CalcPercentTable: UITableViewController {
     }
     
     fileprivate func initViews() {
+        // set type of keyboard
+        etPercent1.keyboardType = UIKeyboardType.decimalPad
+        etNumber1.keyboardType = UIKeyboardType.decimalPad
+        etNumber2.keyboardType = UIKeyboardType.decimalPad
+        etNumber2_.keyboardType = UIKeyboardType.decimalPad
+        etPercent3.keyboardType = UIKeyboardType.decimalPad
+        etNumber3.keyboardType = UIKeyboardType.decimalPad
+        etPercent4.keyboardType = UIKeyboardType.decimalPad
+        etNumber4.keyboardType = UIKeyboardType.decimalPad
+        
         // localisation
         tvPercent1.text = NSLocalizedString("percent", comment: "")
         tvNumber1.text = NSLocalizedString("number", comment: "")
@@ -139,8 +143,20 @@ class CalcPercentTable: UITableViewController {
         
     }
     
-    fileprivate func calculate() {
+    fileprivate func calculate1() {
      
+    }
+    
+    fileprivate func calculate2() {
+        
+    }
+    
+    fileprivate func calculate3() {
+        
+    }
+    
+    fileprivate func calculate4() {
+        
     }
     
     deinit {

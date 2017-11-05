@@ -53,6 +53,18 @@ class CalcVatTable: UITableViewController {
         }
     }
     
+    @objc func clearAllFields() {
+        etRateOfVat.text = ""
+        etAmount.text = ""
+        clearTextFields()
+        
+        self.view.endEditing(true)
+    }
+    
+    @objc func sendResult() {
+        
+    }
+    
     fileprivate func initViews() {
         // set type of keyboard
         etRateOfVat.keyboardType = UIKeyboardType.decimalPad
@@ -94,16 +106,6 @@ class CalcVatTable: UITableViewController {
         } else {
             clearTextFields()
         }
-    }
-    
-    @objc func clearAllFields() {
-        etRateOfVat.text = ""
-        etAmount.text = ""
-        clearTextFields()
-    }
-    
-    @objc func sendResult() {
-        
     }
     
     fileprivate func clearTextFields() {
