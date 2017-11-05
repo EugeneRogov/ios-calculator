@@ -136,13 +136,8 @@ class CalcPercentTable: UITableViewController {
     }
     
     fileprivate func calculate1() {
-        // auto zero
-        if etPercent1.text == "." {
-            etPercent1.text = "0."
-        }
-        if etNumber1.text == "." {
-            etNumber1.text = "0."
-        }
+        Utility.autoZero(textField: etPercent1)
+        Utility.autoZero(textField: etNumber1)
         
         if etPercent1.text != "" && etNumber1.text != "" {
             let NameField = "eff"
@@ -156,13 +151,8 @@ class CalcPercentTable: UITableViewController {
     }
     
     fileprivate func calculate2() {
-        // auto zero
-        if etNumber2.text == "." {
-            etNumber2.text = "0."
-        }
-        if etNumber2_.text == "." {
-            etNumber2_.text = "0."
-        }
+        Utility.autoZero(textField: etNumber2)
+        Utility.autoZero(textField: etNumber2_)
         
         if etNumber2.text != "" && etNumber2_.text != "" {
 
@@ -173,13 +163,8 @@ class CalcPercentTable: UITableViewController {
     }
     //tvtvv
     fileprivate func calculate3() {
-        // auto zero
-        if etPercent3.text == "." {
-            etPercent3.text = "0."
-        }
-        if etNumber3.text == "." {
-            etNumber3.text = "0."
-        }
+        Utility.autoZero(textField: etPercent3)
+        Utility.autoZero(textField: etNumber3)
         
         if etPercent3.text != "" && etNumber3.text != "" {
             
@@ -190,13 +175,8 @@ class CalcPercentTable: UITableViewController {
     }
     
     fileprivate func calculate4() {
-        // auto zero
-        if etPercent4.text == "." {
-            etPercent4.text = "0."
-        }
-        if etNumber4.text == "." {
-            etNumber4.text = "0."
-        }
+        Utility.autoZero(textField: etPercent4)
+        Utility.autoZero(textField: etNumber4)
         
         if etPercent4.text != "" && etNumber4.text != "" {
             

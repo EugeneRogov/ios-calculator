@@ -47,10 +47,10 @@ class CalcSimple: UIViewController {
     
     
     @IBAction func btnSettings(_ sender: UIButton) {
-        self.performSegue(withIdentifier: Constant.SEGUE_CALC_SIMPLE_SETTINGS, sender: nil)
+        self.performSegue(withIdentifier: SegueIDs.SEGUE_CALC_SIMPLE_SETTINGS, sender: nil)
     }
     @IBAction func btnHistory(_ sender: UIButton) {
-        self.performSegue(withIdentifier: Constant.SEGUE_CALC_SIMPLE_HISTORY, sender: nil)
+        self.performSegue(withIdentifier: SegueIDs.SEGUE_CALC_SIMPLE_HISTORY, sender: nil)
     }
     
     @IBAction func btnSend(_ sender: UIButton) {
@@ -149,13 +149,13 @@ class CalcSimple: UIViewController {
     
     @objc func openSettings(_ sender: UIGestureRecognizer) {
         if sender.state == .began {
-            self.performSegue(withIdentifier: Constant.SEGUE_CALC_SIMPLE_SETTINGS, sender: nil)
+            self.performSegue(withIdentifier: SegueIDs.SEGUE_CALC_SIMPLE_SETTINGS, sender: nil)
         }
     }
     
     @objc func openHistory(_ sender: UIGestureRecognizer) {
         if sender.state == .began {
-            self.performSegue(withIdentifier: Constant.SEGUE_CALC_SIMPLE_HISTORY, sender: nil)
+            self.performSegue(withIdentifier: SegueIDs.SEGUE_CALC_SIMPLE_HISTORY, sender: nil)
         }
     }
     

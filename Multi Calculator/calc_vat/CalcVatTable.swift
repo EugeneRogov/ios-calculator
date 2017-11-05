@@ -82,14 +82,9 @@ class CalcVatTable: UITableViewController {
     }
     
     fileprivate func calculate() {
-        // auto zero
-        if etRateOfVat.text == "." {
-            etRateOfVat.text = "0."
-        }
-        if etAmount.text == "." {
-            etAmount.text = "0."
-        }
-        
+        Utility.autoZero(textField: etRateOfVat)
+        Utility.autoZero(textField: etAmount)
+
         if etRateOfVat.text != "" && etAmount.text != "" {
             let vat = Double(etRateOfVat.text!)
             let sum = Double(etAmount.text!)
