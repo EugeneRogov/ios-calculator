@@ -35,31 +35,31 @@ class CalcPercentTable: UITableViewController {
     @IBOutlet weak var tvResult4: UILabel!
     
     @IBAction func etPercent1Listener(_ sender: UITextField) {
-        
+        calculate1()
     }
     @IBAction func etNumber1Listener(_ sender: UITextField) {
-        
+        calculate1()
     }
     
     @IBAction func etNumber2Listener(_ sender: UITextField) {
-        
+        calculate2()
     }
     @IBAction func etNumber2_Listener(_ sender: UITextField) {
-        
+        calculate2()
     }
     
     @IBAction func etPercent3Listener(_ sender: UITextField) {
-        
+        calculate3()
     }
     @IBAction func etNumber3Listener(_ sender: UITextField) {
-        
+        calculate3()
     }
     
     @IBAction func etPercent4Listener(_ sender: UITextField) {
-        
+        calculate4()
     }
     @IBAction func etNumber4Listener(_ sender: UITextField) {
-        
+        calculate4()
     }
     
     override func viewDidLoad() {
@@ -68,14 +68,6 @@ class CalcPercentTable: UITableViewController {
         
         NotificationCenter.default.addObserver(self, selector: #selector(CalcPercentTable.clearAllFields), name: NSNotification.Name(rawValue: Constant.NC_CALC_PERCENT_CLEAR), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(CalcPercentTable.sendResult), name: NSNotification.Name(rawValue: Constant.NC_CALC_PERCENT_SEND), object: nil)
-        
-        let NameField = "eff"
-        let DateField = "dddddd"
-//
-        let string = "Name: \(NameField) Date: \(DateField)"
-//
-        tvResult1.text = string
-        
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -144,19 +136,74 @@ class CalcPercentTable: UITableViewController {
     }
     
     fileprivate func calculate1() {
-     
+        // auto zero
+        if etPercent1.text == "." {
+            etPercent1.text = "0."
+        }
+        if etNumber1.text == "." {
+            etNumber1.text = "0."
+        }
+        
+        if etPercent1.text != "" && etNumber1.text != "" {
+            let NameField = "eff"
+            let DateField = "dddddd"
+            let string = "Name: \(NameField) Date: \(DateField)"
+            tvResult1.text = string
+
+        } else {
+            tvResult1.text = ""
+        }
     }
     
     fileprivate func calculate2() {
+        // auto zero
+        if etNumber2.text == "." {
+            etNumber2.text = "0."
+        }
+        if etNumber2_.text == "." {
+            etNumber2_.text = "0."
+        }
         
+        if etNumber2.text != "" && etNumber2_.text != "" {
+
+            
+        } else {
+            tvResult2.text = ""
+        }
     }
-    
+    //tvtvv
     fileprivate func calculate3() {
+        // auto zero
+        if etPercent3.text == "." {
+            etPercent3.text = "0."
+        }
+        if etNumber3.text == "." {
+            etNumber3.text = "0."
+        }
         
+        if etPercent3.text != "" && etNumber3.text != "" {
+            
+            
+        } else {
+            tvResult3.text = ""
+        }
     }
     
     fileprivate func calculate4() {
+        // auto zero
+        if etPercent4.text == "." {
+            etPercent4.text = "0."
+        }
+        if etNumber4.text == "." {
+            etNumber4.text = "0."
+        }
         
+        if etPercent4.text != "" && etNumber4.text != "" {
+            
+            
+        } else {
+            tvResult4.text = ""
+        }
     }
     
     deinit {
