@@ -73,13 +73,13 @@ class CalcPercentTable: UITableViewController {
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
-            return NSLocalizedString("how_much_is", comment: "")
+            return NSLocalizedString(StringIDs.how_much_is, comment: "")
         case 1:
-            return NSLocalizedString("what_percent_of_the_number_of", comment: "")
+            return NSLocalizedString(StringIDs.what_percent_of_the_number_of, comment: "")
         case 2:
-            return NSLocalizedString("add", comment: "")
+            return NSLocalizedString(StringIDs.add, comment: "")
         case 3:
-            return NSLocalizedString("subtract", comment: "")
+            return NSLocalizedString(StringIDs.subtract, comment: "")
         default:
             return ""
         }
@@ -121,18 +121,17 @@ class CalcPercentTable: UITableViewController {
         etNumber4.keyboardType = UIKeyboardType.decimalPad
         
         // localisation
-        tvPercent1.text = NSLocalizedString("percent", comment: "")
-        tvNumber1.text = NSLocalizedString("number", comment: "")
+        tvPercent1.text = NSLocalizedString(StringIDs.percent, comment: "")
+        tvNumber1.text = NSLocalizedString(StringIDs.number, comment: "")
         
-        tvNumber2.text = NSLocalizedString("number", comment: "")
-        tvNumber2_.text = NSLocalizedString("number", comment: "")
+        tvNumber2.text = NSLocalizedString(StringIDs.number, comment: "")
+        tvNumber2_.text = NSLocalizedString(StringIDs.number, comment: "")
         
-        tvPercent3.text = NSLocalizedString("percent", comment: "")
-        tvNumber3.text = NSLocalizedString("number", comment: "")
+        tvPercent3.text = NSLocalizedString(StringIDs.percent, comment: "")
+        tvNumber3.text = NSLocalizedString(StringIDs.number, comment: "")
         
-        tvPercent4.text = NSLocalizedString("percent", comment: "")
-        tvNumber4.text = NSLocalizedString("number", comment: "")
-        
+        tvPercent4.text = NSLocalizedString(StringIDs.percent, comment: "")
+        tvNumber4.text = NSLocalizedString(StringIDs.number, comment: "")
     }
     
     fileprivate func calculate1() {

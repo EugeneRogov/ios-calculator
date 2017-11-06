@@ -38,7 +38,7 @@ class CalcDateTable: UITableViewController {
         case 0:
             return ""
         case 1:
-            return NSLocalizedString("total", comment: "")
+            return NSLocalizedString(StringIDs.total, comment: "")
         default:
             return ""
         }
@@ -54,13 +54,13 @@ class CalcDateTable: UITableViewController {
     
     fileprivate func initViews() {
         // localisation
-        tvYears.text = NSLocalizedString("years", comment: "")
-        tvMonths.text = NSLocalizedString("months", comment: "")
-        tvWeeks.text = NSLocalizedString("weeks", comment: "")
-        tvDays.text = NSLocalizedString("days", comment: "")
-        tvHours.text = NSLocalizedString("hours", comment: "")
-        tvMinutes.text = NSLocalizedString("minutes", comment: "")
-        tvSeconds.text = NSLocalizedString("seconds", comment: "")
+        tvYears.text = NSLocalizedString(StringIDs.years, comment: "")
+        tvMonths.text = NSLocalizedString(StringIDs.months, comment: "")
+        tvWeeks.text = NSLocalizedString(StringIDs.weeks, comment: "")
+        tvDays.text = NSLocalizedString(StringIDs.days, comment: "")
+        tvHours.text = NSLocalizedString(StringIDs.hours, comment: "")
+        tvMinutes.text = NSLocalizedString(StringIDs.minutes, comment: "")
+        tvSeconds.text = NSLocalizedString(StringIDs.seconds, comment: "")
     }
     
     deinit {

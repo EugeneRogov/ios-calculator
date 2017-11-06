@@ -15,15 +15,15 @@ let startTimes = 20
 class RateApp {
     
     class func incrementCount() {
-        let count = UserDefaults.standard.integer(forKey: "run_count")
+        let count = UserDefaults.standard.integer(forKey: UserDefaultsIDs.UD_RUN_COUNT)
         if count < startTimes {
-            UserDefaults.standard.set(count + 1, forKey: "run_count")
+            UserDefaults.standard.set(count + 1, forKey: UserDefaultsIDs.UD_RUN_COUNT)
             UserDefaults.standard.synchronize()
         }
     }
     
     class func showRatesController() {
-        let count = UserDefaults.standard.integer(forKey: "run_count")
+        let count = UserDefaults.standard.integer(forKey: UserDefaultsIDs.UD_RUN_COUNT)
         if count == startTimes {
             DispatchQueue.main.asyncAfter(deadline: .now(), execute: {
                 SKStoreReviewController.requestReview()

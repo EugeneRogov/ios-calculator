@@ -37,11 +37,11 @@ class Settings: UITableViewController {
     
     fileprivate func initViews() {
         // localisation
-        tvCalcSimple.text = NSLocalizedString("navigation_menu_simple", comment: "")
-        tvCalcVat.text = NSLocalizedString("navigation_menu_vat", comment: "")
-        tvCalcDate.text = NSLocalizedString("navigation_menu_date", comment: "")
-        tvCalcPercent.text = NSLocalizedString("navigation_menu_percent", comment: "")
-        tvCalcLoan.text = NSLocalizedString("navigation_menu_loan", comment: "")
+        tvCalcSimple.text = NSLocalizedString(StringIDs.navigation_menu_simple, comment: "")
+        tvCalcVat.text = NSLocalizedString(StringIDs.navigation_menu_vat, comment: "")
+        tvCalcDate.text = NSLocalizedString(StringIDs.navigation_menu_date, comment: "")
+        tvCalcPercent.text = NSLocalizedString(StringIDs.navigation_menu_percent, comment: "")
+        tvCalcLoan.text = NSLocalizedString(StringIDs.navigation_menu_loan, comment: "")
     }
     
 }

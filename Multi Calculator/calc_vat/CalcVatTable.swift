@@ -45,9 +45,9 @@ class CalcVatTable: UITableViewController {
             case 0:
                 return ""
             case 1:
-                return NSLocalizedString("add_vat", comment: "")
+                return NSLocalizedString(StringIDs.add_vat, comment: "")
             case 2:
-                return NSLocalizedString("exclude_vat", comment: "")
+                return NSLocalizedString(StringIDs.exclude_vat, comment: "")
             default:
                 return ""
         }
@@ -71,14 +71,14 @@ class CalcVatTable: UITableViewController {
         etAmount.keyboardType = UIKeyboardType.decimalPad
         
         // localisation
-        tvRateOfVat.text = NSLocalizedString("rate_of_vat", comment: "")
-        tvAmount.text = NSLocalizedString("amount", comment: "")
+        tvRateOfVat.text = NSLocalizedString(StringIDs.rate_of_vat, comment: "")
+        tvAmount.text = NSLocalizedString(StringIDs.amount, comment: "")
         
-        tvAddSumVat.text = NSLocalizedString("sum_vat", comment: "")
-        tvAddSumWithVat.text = NSLocalizedString("sum_with_vat", comment: "")
+        tvAddSumVat.text = NSLocalizedString(StringIDs.sum_vat, comment: "")
+        tvAddSumWithVat.text = NSLocalizedString(StringIDs.sum_with_vat, comment: "")
         
-        tvExcludeSumVat.text = NSLocalizedString("sum_vat", comment: "")
-        tvExcludeSumWithoutVat.text = NSLocalizedString("sum_without_vat", comment: "")
+        tvExcludeSumVat.text = NSLocalizedString(StringIDs.sum_vat, comment: "")
+        tvExcludeSumWithoutVat.text = NSLocalizedString(StringIDs.sum_without_vat, comment: "")
     }
     
     fileprivate func calculate() {

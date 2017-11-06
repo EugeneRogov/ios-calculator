@@ -27,8 +27,8 @@ class CalcDate: UIViewController {
     
     fileprivate func initViews() {
         // localisation
-        btnClear.setTitle(NSLocalizedString("btn_action_clear", comment: ""), for: UIControlState.normal)
-        btnSend.setTitle(NSLocalizedString("btn_action_send", comment: ""), for: UIControlState.normal)
+        btnClear.setTitle(NSLocalizedString(StringIDs.btn_action_clear, comment: ""), for: UIControlState.normal)
+        btnSend.setTitle(NSLocalizedString(StringIDs.btn_action_send, comment: ""), for: UIControlState.normal)
     }
     
 }

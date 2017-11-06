@@ -26,13 +26,13 @@ class NavMenu: UIViewController {
     }
     
     fileprivate func initViews() {
-        btnNavCalcSimple.setTitle(NSLocalizedString("navigation_menu_simple", comment: ""), for: UIControlState.normal)
-        btnNavCalcVat.setTitle(NSLocalizedString("navigation_menu_vat", comment: ""), for: UIControlState.normal)
-        btnNavCalcDate.setTitle(NSLocalizedString("navigation_menu_date", comment: ""), for: UIControlState.normal)
-        btnNavCalcPercent.setTitle(NSLocalizedString("navigation_menu_percent", comment: ""), for: UIControlState.normal)
-        btnNavCalcLoan.setTitle(NSLocalizedString("navigation_menu_loan", comment: ""), for: UIControlState.normal)
-        btnNavCommonSettings.setTitle(NSLocalizedString("navigation_menu_settings", comment: ""), for: UIControlState.normal)
-        btnNavAbout.setTitle(NSLocalizedString("navigation_menu_about", comment: ""), for: UIControlState.normal)
+        btnNavCalcSimple.setTitle(NSLocalizedString(StringIDs.navigation_menu_simple, comment: ""), for: UIControlState.normal)
+        btnNavCalcVat.setTitle(NSLocalizedString(StringIDs.navigation_menu_vat, comment: ""), for: UIControlState.normal)
+        btnNavCalcDate.setTitle(NSLocalizedString(StringIDs.navigation_menu_date, comment: ""), for: UIControlState.normal)
+        btnNavCalcPercent.setTitle(NSLocalizedString(StringIDs.navigation_menu_percent, comment: ""), for: UIControlState.normal)
+        btnNavCalcLoan.setTitle(NSLocalizedString(StringIDs.navigation_menu_loan, comment: ""), for: UIControlState.normal)
+        btnNavCommonSettings.setTitle(NSLocalizedString(StringIDs.navigation_menu_settings, comment: ""), for: UIControlState.normal)
+        btnNavAbout.setTitle(NSLocalizedString(StringIDs.navigation_menu_about, comment: ""), for: UIControlState.normal)
         
     }
 
